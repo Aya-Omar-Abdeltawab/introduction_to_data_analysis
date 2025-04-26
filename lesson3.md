@@ -221,91 +221,437 @@ Translate complex findings into visual formats that clearly communicate insights
 <div style="background-color: #fff3e0; padding: 10px; border-left: 4px solid #ef6c00; margin-top: 20px;">
 <strong>Best Practice</strong>: Design visualizations with the audience in mind. Technical audiences may need different visualizations than executive stakeholders.
 </div>
-</div>
 
-### Stage 5: Communication of Results 📢
+<h4 style="color: #ef6c00; margin-top: 30px;"><span style="font-size: 1.1em;">🎨 Types of Visualizations and Their Use Cases</span></h4>
 
-<div style="border: 1px solid #cfd8dc; border-radius: 8px; padding: 20px; margin: 15px 0; background-color: #f2fcfd;">
+<div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); gap: 20px; margin: 20px 0;">
 
-<h4 style="color: #0097a7; margin-top: 0;"><span style="font-size: 1.2em;">🎯 Purpose</span></h4>
+<div style="border: 1px solid #ffcc80; border-radius: 8px; padding: 15px; background-color: #fff8e1;">
+  <h5 style="color: #ef6c00; margin-top: 0;"><strong>Comparison Visualizations</strong></h5>
 
-Share insights with stakeholders in a clear, compelling, and actionable format.
-
-<div style="display: flex; margin-top: 20px;">
-  <div style="flex: 1; padding-right: 15px;">
-    <h4 style="color: #0097a7;"><span style="font-size: 1.1em;">🔑 Key Activities</span></h4>
-    <ul>
-      <li>Create presentations tailored to different audiences</li>
-      <li>Develop written reports with methodology and findings</li>
-      <li>Present results with clear narratives and storytelling</li>
-      <li>Address questions and alternative interpretations</li>
-      <li>Connect findings to original business questions</li>
+  <div style="background-color: #fff; border-radius: 5px; padding: 10px; margin-bottom: 15px;">
+    <h6 style="margin-top: 0; margin-bottom: 5px;">Bar Charts</h6>
+    <div style="display: flex; align-items: center; margin-bottom: 10px;">
+      <img src="image/lesson3/viz_bar_chart.png" alt="Bar Chart Example" style="width: 180px; height: auto; border: 1px solid #eee; border-radius: 4px; margin-right: 15px;">
+      <div>
+        <p style="margin-top: 0; font-size: 14px;"><strong>Best for</strong>: Comparing values across categories</p>
+        <p style="margin-top: 0; font-size: 14px;"><strong>Data type</strong>: Categorical with numeric values</p>
+      </div>
+    </div>
+    <p style="margin-top: 0; font-size: 14px;"><strong>Example use cases</strong>:</p>
+    <ul style="font-size: 14px; margin-top: 5px;">
+      <li>Sales by product category</li>
+      <li>Survey responses by demographic group</li>
+      <li>Performance metrics across departments</li>
     </ul>
   </div>
-  <div style="flex: 1; padding-left: 15px; border-left: 1px solid #ddd;">
-    <h4 style="color: #0097a7;"><span style="font-size: 1.1em;">📦 Deliverables</span></h4>
-    <ul>
-      <li>Executive summary</li>
-      <li>Detailed technical report</li>
-      <li>Presentation materials</li>
-      <li>Q&A documentation</li>
-      <li>Recommendations based on findings</li>
-    </ul>
-    <h4 style="color: #c62828; margin-top: 20px;"><span style="font-size: 1.1em;">⚠️ Challenges</span></h4>
-    <ul>
-      <li>Translating technical concepts for non-technical audiences</li>
-      <li>Managing stakeholder expectations</li>
-      <li>Presenting negative or unexpected findings</li>
-      <li>Maintaining objectivity when results are controversial</li>
-    </ul>
-  </div>
-</div>
 
-<div style="background-color: #e0f7fa; padding: 10px; border-left: 4px solid #0097a7; margin-top: 20px;">
-<strong>Best Practice</strong>: Structure communications around the "so what" factor – what do these findings mean for the stakeholder and what actions should they consider?
-</div>
-</div>
-
-### Stage 6: Decision-Making and Action ⚙️
-
-<div style="border: 1px solid #cfd8dc; border-radius: 8px; padding: 20px; margin: 15px 0; background-color: #f9f9f9;">
-
-<h4 style="color: #424242; margin-top: 0;"><span style="font-size: 1.2em;">🎯 Purpose</span></h4>
-
-Implement changes or strategies based on the insights gained from the analysis.
-
-<div style="display: flex; margin-top: 20px;">
-  <div style="flex: 1; padding-right: 15px;">
-    <h4 style="color: #424242;"><span style="font-size: 1.1em;">🔑 Key Activities</span></h4>
-    <ul>
-      <li>Develop action plans based on insights</li>
-      <li>Set measurable goals for implementation</li>
-      <li>Monitor outcomes of data-driven decisions</li>
-      <li>Refine strategies based on results</li>
-      <li>Identify new questions for further analysis</li>
+  <div style="background-color: #fff; border-radius: 5px; padding: 10px; margin-bottom: 15px;">
+    <h6 style="margin-top: 0; margin-bottom: 5px;">Grouped Bar Charts</h6>
+    <div style="display: flex; align-items: center; margin-bottom: 10px;">
+      <img src="image/lesson3/viz_grouped_bar.png" alt="Grouped Bar Chart Example" style="width: 180px; height: auto; border: 1px solid #eee; border-radius: 4px; margin-right: 15px;">
+      <div>
+        <p style="margin-top: 0; font-size: 14px;"><strong>Best for</strong>: Comparing values across categories with subcategories</p>
+        <p style="margin-top: 0; font-size: 14px;"><strong>Data type</strong>: Categorical with multiple numeric variables</p>
+      </div>
+    </div>
+    <p style="margin-top: 0; font-size: 14px;"><strong>Example use cases</strong>:</p>
+    <ul style="font-size: 14px; margin-top: 5px;">
+      <li>Sales by region and product category</li>
+      <li>Expenses by department across quarters</li>
+      <li>Test scores by school and subject</li>
     </ul>
   </div>
-  <div style="flex: 1; padding-left: 15px; border-left: 1px solid #ddd;">
-    <h4 style="color: #424242;"><span style="font-size: 1.1em;">📦 Deliverables</span></h4>
-    <ul>
-      <li>Implementation strategy</li>
-      <li>Performance metrics and KPIs</li>
-      <li>Follow-up analysis plan</li>
-      <li>Documentation of outcomes</li>
-    </ul>
-    <h4 style="color: #c62828; margin-top: 20px;"><span style="font-size: 1.1em;">⚠️ Challenges</span></h4>
-    <ul>
-      <li>Overcoming organizational resistance to change</li>
-      <li>Balancing data-driven decisions with other factors</li>
-      <li>Setting realistic timelines for implementation</li>
-      <li>Establishing causality between actions and results</li>
+
+  <div style="background-color: #fff; border-radius: 5px; padding: 10px;">
+    <h6 style="margin-top: 0; margin-bottom: 5px;">Radar/Spider Charts</h6>
+    <div style="display: flex; align-items: center; margin-bottom: 10px;">
+      <img src="image/lesson3/viz_radar_chart.png" alt="Radar Chart Example" style="width: 180px; height: auto; border: 1px solid #eee; border-radius: 4px; margin-right: 15px;">
+      <div>
+        <p style="margin-top: 0; font-size: 14px;"><strong>Best for</strong>: Comparing multiple variables across entities</p>
+        <p style="margin-top: 0; font-size: 14px;"><strong>Data type</strong>: Multiple metrics for comparison</p>
+      </div>
+    </div>
+    <p style="margin-top: 0; font-size: 14px;"><strong>Example use cases</strong>:</p>
+    <ul style="font-size: 14px; margin-top: 5px;">
+      <li>Performance evaluations across multiple dimensions</li>
+      <li>Product features comparison</li>
+      <li>Skills assessment profiles</li>
     </ul>
   </div>
 </div>
 
-<div style="background-color: #f5f5f5; padding: 10px; border-left: 4px solid #424242; margin-top: 20px;">
-<strong>Best Practice</strong>: Create feedback loops where the outcomes of data-driven decisions feed back into new analyses, creating a continuous improvement cycle.
+<div style="border: 1px solid #81c784; border-radius: 8px; padding: 15px; background-color: #f1f8e9;">
+  <h5 style="color: #2e7d32; margin-top: 0;"><strong>Time Series Visualizations</strong></h5>
+
+  <div style="background-color: #fff; border-radius: 5px; padding: 10px; margin-bottom: 15px;">
+    <h6 style="margin-top: 0; margin-bottom: 5px;">Line Charts</h6>
+    <div style="display: flex; align-items: center; margin-bottom: 10px;">
+      <img src="image/lesson3/viz_line_chart.png" alt="Line Chart Example" style="width: 180px; height: auto; border: 1px solid #eee; border-radius: 4px; margin-right: 15px;">
+      <div>
+        <p style="margin-top: 0; font-size: 14px;"><strong>Best for</strong>: Showing trends over time</p>
+        <p style="margin-top: 0; font-size: 14px;"><strong>Data type</strong>: Time series</p>
+      </div>
+    </div>
+    <p style="margin-top: 0; font-size: 14px;"><strong>Example use cases</strong>:</p>
+    <ul style="font-size: 14px; margin-top: 5px;">
+      <li>Stock price changes over time</li>
+      <li>Monthly website traffic trends</li>
+      <li>Temperature fluctuations through seasons</li>
+    </ul>
+  </div>
+
+  <div style="background-color: #fff; border-radius: 5px; padding: 10px; margin-bottom: 15px;">
+    <h6 style="margin-top: 0; margin-bottom: 5px;">Area Charts</h6>
+    <div style="display: flex; align-items: center; margin-bottom: 10px;">
+      <img src="image/lesson3/viz_area_chart.png" alt="Area Chart Example" style="width: 180px; height: auto; border: 1px solid #eee; border-radius: 4px; margin-right: 15px;">
+      <div>
+        <p style="margin-top: 0; font-size: 14px;"><strong>Best for</strong>: Showing volume over time</p>
+        <p style="margin-top: 0; font-size: 14px;"><strong>Data type</strong>: Time series with emphasis on magnitude</p>
+      </div>
+    </div>
+    <p style="margin-top: 0; font-size: 14px;"><strong>Example use cases</strong>:</p>
+    <ul style="font-size: 14px; margin-top: 5px;">
+      <li>Market share evolution over time</li>
+      <li>Cumulative project progress</li>
+      <li>Website traffic sources over time</li>
+    </ul>
+  </div>
+
+  <div style="background-color: #fff; border-radius: 5px; padding: 10px;">
+    <h6 style="margin-top: 0; margin-bottom: 5px;">Candlestick Charts</h6>
+    <div style="display: flex; align-items: center; margin-bottom: 10px;">
+      <img src="image/lesson3/viz_candlestick.png" alt="Candlestick Chart Example" style="width: 180px; height: auto; border: 1px solid #eee; border-radius: 4px; margin-right: 15px;">
+      <div>
+        <p style="margin-top: 0; font-size: 14px;"><strong>Best for</strong>: Showing price movement with open/close/high/low values</p>
+        <p style="margin-top: 0; font-size: 14px;"><strong>Data type</strong>: Time series with range data</p>
+      </div>
+    </div>
+    <p style="margin-top: 0; font-size: 14px;"><strong>Example use cases</strong>:</p>
+    <ul style="font-size: 14px; margin-top: 5px;">
+      <li>Stock or cryptocurrency price movements</li>
+      <li>Trading data analysis</li>
+      <li>Price volatility patterns</li>
+    </ul>
+  </div>
 </div>
+
+<div style="border: 1px solid #64b5f6; border-radius: 8px; padding: 15px; background-color: #e3f2fd;">
+  <h5 style="color: #1565c0; margin-top: 0;"><strong>Distribution Visualizations</strong></h5>
+
+  <div style="background-color: #fff; border-radius: 5px; padding: 10px; margin-bottom: 15px;">
+    <h6 style="margin-top: 0; margin-bottom: 5px;">Histograms</h6>
+    <div style="display: flex; align-items: center; margin-bottom: 10px;">
+      <img src="image/lesson3/viz_histogram.png" alt="Histogram Example" style="width: 180px; height: auto; border: 1px solid #eee; border-radius: 4px; margin-right: 15px;">
+      <div>
+        <p style="margin-top: 0; font-size: 14px;"><strong>Best for</strong>: Showing distribution of a single variable</p>
+        <p style="margin-top: 0; font-size: 14px;"><strong>Data type</strong>: Continuous numeric data</p>
+      </div>
+    </div>
+    <p style="margin-top: 0; font-size: 14px;"><strong>Example use cases</strong>:</p>
+    <ul style="font-size: 14px; margin-top: 5px;">
+      <li>Age distribution of customers</li>
+      <li>Test score distributions</li>
+      <li>Response time frequencies</li>
+    </ul>
+  </div>
+
+  <div style="background-color: #fff; border-radius: 5px; padding: 10px; margin-bottom: 15px;">
+    <h6 style="margin-top: 0; margin-bottom: 5px;">Box Plots</h6>
+    <div style="display: flex; align-items: center; margin-bottom: 10px;">
+      <img src="image/lesson3/viz_boxplot.png" alt="Box Plot Example" style="width: 180px; height: auto; border: 1px solid #eee; border-radius: 4px; margin-right: 15px;">
+      <div>
+        <p style="margin-top: 0; font-size: 14px;"><strong>Best for</strong>: Showing data distribution with quartiles and outliers</p>
+        <p style="margin-top: 0; font-size: 14px;"><strong>Data type</strong>: Numeric data with statistical spread</p>
+      </div>
+    </div>
+    <p style="margin-top: 0; font-size: 14px;"><strong>Example use cases</strong>:</p>
+    <ul style="font-size: 14px; margin-top: 5px;">
+      <li>Salary distributions by department</li>
+      <li>Product performance variability</li>
+      <li>Comparing data spread across groups</li>
+    </ul>
+  </div>
+
+  <div style="background-color: #fff; border-radius: 5px; padding: 10px;">
+    <h6 style="margin-top: 0; margin-bottom: 5px;">Violin Plots</h6>
+    <div style="display: flex; align-items: center; margin-bottom: 10px;">
+      <img src="image/lesson3/viz_violin_plot.png" alt="Violin Plot Example" style="width: 180px; height: auto; border: 1px solid #eee; border-radius: 4px; margin-right: 15px;">
+      <div>
+        <p style="margin-top: 0; font-size: 14px;"><strong>Best for</strong>: Showing density distribution and statistical summary</p>
+        <p style="margin-top: 0; font-size: 14px;"><strong>Data type</strong>: Continuous data with multiple distributions</p>
+      </div>
+    </div>
+    <p style="margin-top: 0; font-size: 14px;"><strong>Example use cases</strong>:</p>
+    <ul style="font-size: 14px; margin-top: 5px;">
+      <li>Comparing distributions across categories</li>
+      <li>Analyzing bimodal data patterns</li>
+      <li>Customer rating distributions by product</li>
+    </ul>
+  </div>
+</div>
+
+<div style="border: 1px solid #9575cd; border-radius: 8px; padding: 15px; background-color: #ede7f6;">
+  <h5 style="color: #4527a0; margin-top: 0;"><strong>Relationship Visualizations</strong></h5>
+
+  <div style="background-color: #fff; border-radius: 5px; padding: 10px; margin-bottom: 15px;">
+    <h6 style="margin-top: 0; margin-bottom: 5px;">Scatter Plots</h6>
+    <div style="display: flex; align-items: center; margin-bottom: 10px;">
+      <img src="image/lesson3/viz_scatter_plot.png" alt="Scatter Plot Example" style="width: 180px; height: auto; border: 1px solid #eee; border-radius: 4px; margin-right: 15px;">
+      <div>
+        <p style="margin-top: 0; font-size: 14px;"><strong>Best for</strong>: Showing relationship between two variables</p>
+        <p style="margin-top: 0; font-size: 14px;"><strong>Data type</strong>: Two numeric variables</p>
+      </div>
+    </div>
+    <p style="margin-top: 0; font-size: 14px;"><strong>Example use cases</strong>:</p>
+    <ul style="font-size: 14px; margin-top: 5px;">
+      <li>Price vs. quality correlation</li>
+      <li>Height vs. weight relationships</li>
+      <li>Marketing spend vs. sales relationship</li>
+    </ul>
+  </div>
+
+  <div style="background-color: #fff; border-radius: 5px; padding: 10px; margin-bottom: 15px;">
+    <h6 style="margin-top: 0; margin-bottom: 5px;">Bubble Charts</h6>
+    <div style="display: flex; align-items: center; margin-bottom: 10px;">
+      <img src="image/lesson3/viz_bubble_chart.png" alt="Bubble Chart Example" style="width: 180px; height: auto; border: 1px solid #eee; border-radius: 4px; margin-right: 15px;">
+      <div>
+        <p style="margin-top: 0; font-size: 14px;"><strong>Best for</strong>: Showing relationship between three variables</p>
+        <p style="margin-top: 0; font-size: 14px;"><strong>Data type</strong>: Two numeric variables plus a third for bubble size</p>
+      </div>
+    </div>
+    <p style="margin-top: 0; font-size: 14px;"><strong>Example use cases</strong>:</p>
+    <ul style="font-size: 14px; margin-top: 5px;">
+      <li>GDP per capita vs. life expectancy with population size</li>
+      <li>Product features vs. price with sales volume</li>
+      <li>Marketing channels by cost and conversion rate</li>
+    </ul>
+  </div>
+
+  <div style="background-color: #fff; border-radius: 5px; padding: 10px;">
+    <h6 style="margin-top: 0; margin-bottom: 5px;">Heatmaps</h6>
+    <div style="display: flex; align-items: center; margin-bottom: 10px;">
+      <img src="image/lesson3/viz_heatmap.png" alt="Heatmap Example" style="width: 180px; height: auto; border: 1px solid #eee; border-radius: 4px; margin-right: 15px;">
+      <div>
+        <p style="margin-top: 0; font-size: 14px;"><strong>Best for</strong>: Showing patterns across two categorical dimensions</p>
+        <p style="margin-top: 0; font-size: 14px;"><strong>Data type</strong>: Matrix of values in two dimensions</p>
+      </div>
+    </div>
+    <p style="margin-top: 0; font-size: 14px;"><strong>Example use cases</strong>:</p>
+    <ul style="font-size: 14px; margin-top: 5px;">
+      <li>Website activity by hour and day of week</li>
+      <li>Correlation matrix between variables</li>
+      <li>Performance metrics across regions and products</li>
+    </ul>
+  </div>
+</div>
+
+<div style="border: 1px solid #4db6ac; border-radius: 8px; padding: 15px; background-color: #e0f2f1;">
+  <h5 style="color: #00695c; margin-top: 0;"><strong>Composition Visualizations</strong></h5>
+
+  <div style="background-color: #fff; border-radius: 5px; padding: 10px; margin-bottom: 15px;">
+    <h6 style="margin-top: 0; margin-bottom: 5px;">Pie Charts</h6>
+    <div style="display: flex; align-items: center; margin-bottom: 10px;">
+      <img src="image/lesson3/viz_pie_chart.png" alt="Pie Chart Example" style="width: 180px; height: auto; border: 1px solid #eee; border-radius: 4px; margin-right: 15px;">
+      <div>
+        <p style="margin-top: 0; font-size: 14px;"><strong>Best for</strong>: Showing parts of a whole (limited to 5-7 categories)</p>
+        <p style="margin-top: 0; font-size: 14px;"><strong>Data type</strong>: Categorical data as percentages of total</p>
+      </div>
+    </div>
+    <p style="margin-top: 0; font-size: 14px;"><strong>Example use cases</strong>:</p>
+    <ul style="font-size: 14px; margin-top: 5px;">
+      <li>Market share distribution</li>
+      <li>Budget allocation by department</li>
+      <li>Traffic sources to a website</li>
+    </ul>
+  </div>
+
+  <div style="background-color: #fff; border-radius: 5px; padding: 10px; margin-bottom: 15px;">
+    <h6 style="margin-top: 0; margin-bottom: 5px;">Stacked Bar Charts</h6>
+    <div style="display: flex; align-items: center; margin-bottom: 10px;">
+      <img src="image/lesson3/viz_stacked_bar.png" alt="Stacked Bar Chart Example" style="width: 180px; height: auto; border: 1px solid #eee; border-radius: 4px; margin-right: 15px;">
+      <div>
+        <p style="margin-top: 0; font-size: 14px;"><strong>Best for</strong>: Showing composition and total values across categories</p>
+        <p style="margin-top: 0; font-size: 14px;"><strong>Data type</strong>: Categorical with subcategories and values</p>
+      </div>
+    </div>
+    <p style="margin-top: 0; font-size: 14px;"><strong>Example use cases</strong>:</p>
+    <ul style="font-size: 14px; margin-top: 5px;">
+      <li>Revenue breakdown by product and region</li>
+      <li>Population demographics over time</li>
+      <li>Survey responses across multiple questions</li>
+    </ul>
+  </div>
+
+  <div style="background-color: #fff; border-radius: 5px; padding: 10px;">
+    <h6 style="margin-top: 0; margin-bottom: 5px;">Treemaps</h6>
+    <div style="display: flex; align-items: center; margin-bottom: 10px;">
+      <img src="image/lesson3/viz_treemap.png" alt="Treemap Example" style="width: 180px; height: auto; border: 1px solid #eee; border-radius: 4px; margin-right: 15px;">
+      <div>
+        <p style="margin-top: 0; font-size: 14px;"><strong>Best for</strong>: Hierarchical data with nested categories</p>
+        <p style="margin-top: 0; font-size: 14px;"><strong>Data type</strong>: Hierarchical categorical data with values</p>
+      </div>
+    </div>
+    <p style="margin-top: 0; font-size: 14px;"><strong>Example use cases</strong>:</p>
+    <ul style="font-size: 14px; margin-top: 5px;">
+      <li>File system storage allocation</li>
+      <li>Product categories and subcategories by sales</li>
+      <li>Organizational structure with performance metrics</li>
+    </ul>
+  </div>
+</div>
+
+<div style="border: 1px solid #f06292; border-radius: 8px; padding: 15px; background-color: #fce4ec;">
+  <h5 style="color: #ad1457; margin-top: 0;"><strong>Spatial Visualizations</strong></h5>
+
+  <div style="background-color: #fff; border-radius: 5px; padding: 10px; margin-bottom: 15px;">
+    <h6 style="margin-top: 0; margin-bottom: 5px;">Choropleth Maps</h6>
+    <div style="display: flex; align-items: center; margin-bottom: 10px;">
+      <img src="image/lesson3/viz_choropleth.png" alt="Choropleth Map Example" style="width: 180px; height: auto; border: 1px solid #eee; border-radius: 4px; margin-right: 15px;">
+      <div>
+        <p style="margin-top: 0; font-size: 14px;"><strong>Best for</strong>: Showing values across geographic areas</p>
+        <p style="margin-top: 0; font-size: 14px;"><strong>Data type</strong>: Geographic data with associated values</p>
+      </div>
+    </div>
+    <p style="margin-top: 0; font-size: 14px;"><strong>Example use cases</strong>:</p>
+    <ul style="font-size: 14px; margin-top: 5px;">
+      <li>Population density by region</li>
+      <li>Sales performance across territories</li>
+      <li>Election results by district</li>
+    </ul>
+  </div>
+
+  <div style="background-color: #fff; border-radius: 5px; padding: 10px; margin-bottom: 15px;">
+    <h6 style="margin-top: 0; margin-bottom: 5px;">Point Maps</h6>
+    <div style="display: flex; align-items: center; margin-bottom: 10px;">
+      <img src="image/lesson3/viz_point_map.png" alt="Point Map Example" style="width: 180px; height: auto; border: 1px solid #eee; border-radius: 4px; margin-right: 15px;">
+      <div>
+        <p style="margin-top: 0; font-size: 14px;"><strong>Best for</strong>: Showing individual locations</p>
+        <p style="margin-top: 0; font-size: 14px;"><strong>Data type</strong>: Geographic coordinates with attributes</p>
+      </div>
+    </div>
+    <p style="margin-top: 0; font-size: 14px;"><strong>Example use cases</strong>:</p>
+    <ul style="font-size: 14px; margin-top: 5px;">
+      <li>Store locations with performance data</li>
+      <li>Customer distribution in a region</li>
+      <li>Event locations with attendance figures</li>
+    </ul>
+  </div>
+
+  <div style="background-color: #fff; border-radius: 5px; padding: 10px;">
+    <h6 style="margin-top: 0; margin-bottom: 5px;">Flow Maps</h6>
+    <div style="display: flex; align-items: center; margin-bottom: 10px;">
+      <img src="image/lesson3/viz_flow_map.png" alt="Flow Map Example" style="width: 180px; height: auto; border: 1px solid #eee; border-radius: 4px; margin-right: 15px;">
+      <div>
+        <p style="margin-top: 0; font-size: 14px;"><strong>Best for</strong>: Showing movement between locations</p>
+        <p style="margin-top: 0; font-size: 14px;"><strong>Data type</strong>: Origin-destination pairs with volumes</p>
+      </div>
+    </div>
+    <p style="margin-top: 0; font-size: 14px;"><strong>Example use cases</strong>:</p>
+    <ul style="font-size: 14px; margin-top: 5px;">
+      <li>Migration patterns between countries</li>
+      <li>Supply chain and logistics flows</li>
+      <li>Customer movement between store locations</li>
+    </ul>
+  </div>
+</div>
+
+<div style="border: 1px solid #ff8a65; border-radius: 8px; padding: 15px; background-color: #fbe9e7;">
+  <h5 style="color: #d84315; margin-top: 0;"><strong>Specialized Visualizations</strong></h5>
+
+  <div style="background-color: #fff; border-radius: 5px; padding: 10px; margin-bottom: 15px;">
+    <h6 style="margin-top: 0; margin-bottom: 5px;">Network Graphs</h6>
+    <div style="display: flex; align-items: center; margin-bottom: 10px;">
+      <img src="image/lesson3/viz_network_graph.png" alt="Network Graph Example" style="width: 180px; height: auto; border: 1px solid #eee; border-radius: 4px; margin-right: 15px;">
+      <div>
+        <p style="margin-top: 0; font-size: 14px;"><strong>Best for</strong>: Showing relationships and connections between entities</p>
+        <p style="margin-top: 0; font-size: 14px;"><strong>Data type</strong>: Node-link data with relationships</p>
+      </div>
+    </div>
+    <p style="margin-top: 0; font-size: 14px;"><strong>Example use cases</strong>:</p>
+    <ul style="font-size: 14px; margin-top: 5px;">
+      <li>Social network analysis</li>
+      <li>Organization connections and hierarchies</li>
+      <li>Product recommendation systems</li>
+    </ul>
+  </div>
+
+  <div style="background-color: #fff; border-radius: 5px; padding: 10px; margin-bottom: 15px;">
+    <h6 style="margin-top: 0; margin-bottom: 5px;">Sankey Diagrams</h6>
+    <div style="display: flex; align-items: center; margin-bottom: 10px;">
+      <img src="image/lesson3/viz_sankey.png" alt="Sankey Diagram Example" style="width: 180px; height: auto; border: 1px solid #eee; border-radius: 4px; margin-right: 15px;">
+      <div>
+        <p style="margin-top: 0; font-size: 14px;"><strong>Best for</strong>: Showing flow quantities between categories or stages</p>
+        <p style="margin-top: 0; font-size: 14px;"><strong>Data type</strong>: Flow data between nodes</p>
+      </div>
+    </div>
+    <p style="margin-top: 0; font-size: 14px;"><strong>Example use cases</strong>:</p>
+    <ul style="font-size: 14px; margin-top: 5px;">
+      <li>Website user flow analysis</li>
+      <li>Energy transfer diagrams</li>
+      <li>Budget flow between departments</li>
+    </ul>
+  </div>
+
+  <div style="background-color: #fff; border-radius: 5px; padding: 10px;">
+    <h6 style="margin-top: 0; margin-bottom: 5px;">Funnel Charts</h6>
+    <div style="display: flex; align-items: center; margin-bottom: 10px;">
+      <img src="image/lesson3/viz_funnel_chart.png" alt="Funnel Chart Example" style="width: 180px; height: auto; border: 1px solid #eee; border-radius: 4px; margin-right: 15px;">
+      <div>
+        <p style="margin-top: 0; font-size: 14px;"><strong>Best for</strong>: Showing sequential process and drop-offs</p>
+        <p style="margin-top: 0; font-size: 14px;"><strong>Data type</strong>: Sequential steps with decreasing values</p>
+      </div>
+    </div>
+    <p style="margin-top: 0; font-size: 14px;"><strong>Example use cases</strong>:</p>
+    <ul style="font-size: 14px; margin-top: 5px;">
+      <li>Sales conversion funnel</li>
+      <li>Recruitment process stages</li>
+      <li>Customer journey analysis</li>
+    </ul>
+  </div>
+</div>
+
+</div>
+
+<h4 style="color: #ef6c00; margin-top: 30px;"><span style="font-size: 1.1em;">📝 Choosing the Right Visualization</span></h4>
+
+<div style="background-color: #fff3e0; padding: 15px; border-radius: 6px; margin: 15px 0;">
+  <h5 style="margin-top: 0;">Step-by-Step Decision Guide</h5>
+  <ol style="margin-bottom: 0;">
+    <li><strong>Define your purpose</strong>: What question are you trying to answer?</li>
+    <li><strong>Identify your data type</strong>: Categorical, numerical, time-series, geographic, etc.</li>
+    <li><strong>Consider your audience</strong>: Technical understanding, preferences, and needs</li>
+    <li><strong>Determine the relationship</strong> you want to show: Comparison, composition, distribution, relationship, or trend</li>
+    <li><strong>Match the visualization</strong> to the purpose and data type using the guide above</li>
+    <li><strong>Simplify and refine</strong>: Remove clutter, emphasize important points, use consistent colors</li>
+  </ol>
+</div>
+
+<div style="display: flex; gap: 15px; margin: 20px 0;">
+  <div style="flex: 1; background-color: #e8f5e9; padding: 15px; border-radius: 6px;">
+    <h5 style="color: #2e7d32; margin-top: 0;">✅ Best Practices</h5>
+    <ul style="margin-bottom: 0;">
+      <li>Start with the question, not the chart type</li>
+      <li>Use color purposefully and consistently</li>
+      <li>Provide clear titles, labels, and legends</li>
+      <li>Maintain appropriate aspect ratios</li>
+      <li>Use interactive elements strategically</li>
+      <li>Consider accessibility for colorblind users</li>
+    </ul>
+  </div>
+  <div style="flex: 1; background-color: #ffebee; padding: 15px; border-radius: 6px;">
+    <h5 style="color: #c62828; margin-top: 0;">❌ Common Pitfalls</h5>
+    <ul style="margin-bottom: 0;">
+      <li>Using pie charts with too many categories</li>
+      <li>Truncating axes to exaggerate differences</li>
+      <li>Using 3D charts that distort perception</li>
+      <li>Overcomplicating with unnecessary chart junk</li>
+      <li>Choosing the wrong chart type for your data</li>
+      <li>Using misleading color scales</li>
+    </ul>
+  </div>
+</div>
+
 </div>
 
 ---
@@ -664,14 +1010,14 @@ Let's walk through a practical example of how the data analysis lifecycle applie
     </div>
   </div>
 
-  <div style="display: flex; align-items: flex-start; margin-bottom: 15px;">
+<div style="display: flex; align-items: flex-start; margin-bottom: 15px;">
     <div style="background-color: #e8f5e9; color: #1b5e20; width: 30px; height: 30px; border-radius: 50%; display: flex; justify-content: center; align-items: center; margin-right: 15px; font-weight: bold;">2</div>
     <div>
       <p style="margin: 0;"><strong>Document a plan for applying the data analysis lifecycle to this dataset</strong></p>
       <p style="margin-top: 5px; color: #555; font-size: 14px;">Create a brief outline for each of the six stages we discussed</p>
     </div>
   </div>
-  
+
   <div style="display: flex; align-items: flex-start; margin-bottom: 15px;">
     <div style="background-color: #f3e5f5; color: #4a148c; width: 30px; height: 30px; border-radius: 50%; display: flex; justify-content: center; align-items: center; margin-right: 15px; font-weight: bold;">3</div>
     <div>
@@ -679,7 +1025,7 @@ Let's walk through a practical example of how the data analysis lifecycle applie
       <p style="margin-top: 5px; color: #555; font-size: 14px;">Document your process and include example outputs from each stage</p>
     </div>
   </div>
-  
+
   <div style="display: flex; align-items: flex-start;">
     <div style="background-color: #fff3e0; color: #e65100; width: 30px; height: 30px; border-radius: 50%; display: flex; justify-content: center; align-items: center; margin-right: 15px; font-weight: bold;">4</div>
     <div>
