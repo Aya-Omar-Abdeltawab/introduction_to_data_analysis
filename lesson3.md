@@ -1,4 +1,4 @@
-# 📊 Lesson 3: The Data Analysis Lifecycle
+# 📊 Lesson 3: The Data Analysis Lifecycle 🔍
 
 ## Overview
 **Duration**: 1 hour
@@ -19,7 +19,7 @@
 
 The data analysis lifecycle is a structured approach to turning raw data into actionable insights. Each stage builds upon the previous one, creating a framework that ensures thoroughness, accuracy, and relevance in data-driven decision making.
 
-<div style="background-color: #f8f9fa; border-left: 5px solid #6c757d; padding: 15px; margin: 15px 0;">
+<div style="background-color: #e3f2fd; border-left: 6px solid #1976d2; padding: 15px; margin: 15px 0;">
 <blockquote style="font-style: italic; font-size: 1.1em; margin: 0;">
 "Good data analysis tells a story that answers the original question clearly and compellingly."
 </blockquote>
@@ -33,32 +33,30 @@ The data analysis lifecycle is a structured approach to turning raw data into ac
 
 ## 2. 🛠️ Stages of Data Analysis
 
-<div style="display: flex; justify-content: center; margin-bottom: 30px;">
-<div style="display: flex; flex-wrap: wrap; justify-content: center; max-width: 90%;">
-  <div style="background-color: #e3f2fd; border-radius: 8px; padding: 15px; margin: 10px; flex: 0 0 calc(33% - 20px); box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
-    <h3 style="text-align: center; color: #1565c0;"><span style="font-size: 1.5em;">📥</span><br>Data Collection</h3>
+<div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 15px; margin: 15px 0;">
+  <div style="background-color: #e3f2fd; padding: 15px; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); text-align: center;">
+    <h3 style="color: #1565c0;"><span style="font-size: 1.5em;">📥</span><br>Data Collection</h3>
   </div>
-  <div style="background-color: #e8f5e9; border-radius: 8px; padding: 15px; margin: 10px; flex: 0 0 calc(33% - 20px); box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
-    <h3 style="text-align: center; color: #2e7d32;"><span style="font-size: 1.5em;">🧹</span><br>Data Cleaning</h3>
+  <div style="background-color: #e8f5e9; padding: 15px; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); text-align: center;">
+    <h3 style="color: #2e7d32;"><span style="font-size: 1.5em;">🧹</span><br>Data Cleaning</h3>
   </div>
-  <div style="background-color: #f3e5f5; border-radius: 8px; padding: 15px; margin: 10px; flex: 0 0 calc(33% - 20px); box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
-    <h3 style="text-align: center; color: #7b1fa2;"><span style="font-size: 1.5em;">🔍</span><br>Data Exploration</h3>
+  <div style="background-color: #f3e5f5; padding: 15px; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); text-align: center;">
+    <h3 style="color: #7b1fa2;"><span style="font-size: 1.5em;">🔍</span><br>Data Exploration</h3>
   </div>
-  <div style="background-color: #fff3e0; border-radius: 8px; padding: 15px; margin: 10px; flex: 0 0 calc(33% - 20px); box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
-    <h3 style="text-align: center; color: #ef6c00;"><span style="font-size: 1.5em;">📊</span><br>Data Visualization</h3>
+  <div style="background-color: #fff3e0; padding: 15px; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); text-align: center;">
+    <h3 style="color: #ef6c00;"><span style="font-size: 1.5em;">📊</span><br>Data Visualization</h3>
   </div>
-  <div style="background-color: #e0f7fa; border-radius: 8px; padding: 15px; margin: 10px; flex: 0 0 calc(33% - 20px); box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
-    <h3 style="text-align: center; color: #0097a7;"><span style="font-size: 1.5em;">📢</span><br>Communication</h3>
+  <div style="background-color: #e0f7fa; padding: 15px; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); text-align: center;">
+    <h3 style="color: #0097a7;"><span style="font-size: 1.5em;">📢</span><br>Communication</h3>
   </div>
-  <div style="background-color: #f5f5f5; border-radius: 8px; padding: 15px; margin: 10px; flex: 0 0 calc(33% - 20px); box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
-    <h3 style="text-align: center; color: #424242;"><span style="font-size: 1.5em;">⚙️</span><br>Decision-Making</h3>
+  <div style="background-color: #f5f5f5; padding: 15px; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); text-align: center;">
+    <h3 style="color: #424242;"><span style="font-size: 1.5em;">⚙️</span><br>Decision-Making</h3>
   </div>
-</div>
 </div>
 
 ### Stage 1: Data Collection 📥
 
-<div style="border: 1px solid #ccc; border-radius: 8px; padding: 20px; margin: 15px 0; background-color: #f9fbff;">
+<div style="border: 1px solid #cfd8dc; border-radius: 8px; padding: 20px; margin: 15px 0; background-color: #f9fbff;">
 <h4 style="color: #1565c0; margin-top: 0;"><span style="font-size: 1.2em;">🎯 Purpose</span></h4>
 
 Gather relevant data from appropriate sources to address the research question or business need.
@@ -81,7 +79,7 @@ Gather relevant data from appropriate sources to address the research question o
       <li>Data collection methodology documentation</li>
       <li>Initial data catalog or inventory</li>
     </ul>
-    <h4 style="color: #d32f2f; margin-top: 20px;"><span style="font-size: 1.1em;">⚠️ Challenges</span></h4>
+    <h4 style="color: #c62828; margin-top: 20px;"><span style="font-size: 1.1em;">⚠️ Challenges</span></h4>
     <ul>
       <li>Ensuring data relevance to the research question</li>
       <li>Accessing and extracting data from various systems</li>
@@ -91,14 +89,14 @@ Gather relevant data from appropriate sources to address the research question o
   </div>
 </div>
 
-<div style="background-color: #e3f2fd; padding: 10px; border-left: 4px solid #1565c0; margin-top: 20px;">
+<div style="background-color: #e3f2fd; padding: 10px; border-left: 4px solid #1976d2; margin-top: 20px;">
 <strong>Best Practice</strong>: Begin with a clear question or objective. The quality of your analysis can only be as good as the clarity of your original question.
 </div>
 </div>
 
 ### Stage 2: Data Cleaning and Preparation 🧹
 
-<div style="border: 1px solid #ccc; border-radius: 8px; padding: 20px; margin: 15px 0; background-color: #f9fff9;">
+<div style="border: 1px solid #cfd8dc; border-radius: 8px; padding: 20px; margin: 15px 0; background-color: #f9fff9;">
 
 <h4 style="color: #2e7d32; margin-top: 0;"><span style="font-size: 1.2em;">🎯 Purpose</span></h4>
 
@@ -125,7 +123,7 @@ Transform raw data into a clean, consistent, and usable format for analysis.
       <li>Documentation of cleaning steps and decisions</li>
       <li>Validation report showing data quality metrics</li>
     </ul>
-    <h4 style="color: #d32f2f; margin-top: 20px;"><span style="font-size: 1.1em;">⚠️ Challenges</span></h4>
+    <h4 style="color: #c62828; margin-top: 20px;"><span style="font-size: 1.1em;">⚠️ Challenges</span></h4>
     <ul>
       <li>Identifying anomalies without domain knowledge</li>
       <li>Making appropriate decisions about missing data</li>
@@ -142,7 +140,7 @@ Transform raw data into a clean, consistent, and usable format for analysis.
 
 ### Stage 3: Data Exploration and Analysis 🔍
 
-<div style="border: 1px solid #ccc; border-radius: 8px; padding: 20px; margin: 15px 0; background-color: #fdf9ff;">
+<div style="border: 1px solid #cfd8dc; border-radius: 8px; padding: 20px; margin: 15px 0; background-color: #fdf9ff;">
 
 <h4 style="color: #7b1fa2; margin-top: 0;"><span style="font-size: 1.2em;">🎯 Purpose</span></h4>
 
@@ -168,7 +166,7 @@ Examine the data to identify patterns, relationships, and insights that address 
       <li>Analytical models with performance metrics</li>
       <li>Key findings and initial insights</li>
     </ul>
-    <h4 style="color: #d32f2f; margin-top: 20px;"><span style="font-size: 1.1em;">⚠️ Challenges</span></h4>
+    <h4 style="color: #c62828; margin-top: 20px;"><span style="font-size: 1.1em;">⚠️ Challenges</span></h4>
     <ul>
       <li>Avoiding confirmation bias in analysis</li>
       <li>Selecting appropriate analytical methods</li>
@@ -185,7 +183,7 @@ Examine the data to identify patterns, relationships, and insights that address 
 
 ### Stage 4: Data Visualization 📊
 
-<div style="border: 1px solid #ccc; border-radius: 8px; padding: 20px; margin: 15px 0; background-color: #fffaf2;">
+<div style="border: 1px solid #cfd8dc; border-radius: 8px; padding: 20px; margin: 15px 0; background-color: #fffaf2;">
 
 <h4 style="color: #ef6c00; margin-top: 0;"><span style="font-size: 1.2em;">🎯 Purpose</span></h4>
 
@@ -210,7 +208,7 @@ Translate complex findings into visual formats that clearly communicate insights
       <li>Infographics or visual summaries</li>
       <li>Technical documentation of visualization methods</li>
     </ul>
-    <h4 style="color: #d32f2f; margin-top: 20px;"><span style="font-size: 1.1em;">⚠️ Challenges</span></h4>
+    <h4 style="color: #c62828; margin-top: 20px;"><span style="font-size: 1.1em;">⚠️ Challenges</span></h4>
     <ul>
       <li>Choosing the right visualization for the data type</li>
       <li>Avoiding misleading representations</li>
@@ -227,7 +225,7 @@ Translate complex findings into visual formats that clearly communicate insights
 
 ### Stage 5: Communication of Results 📢
 
-<div style="border: 1px solid #ccc; border-radius: 8px; padding: 20px; margin: 15px 0; background-color: #f2fcfd;">
+<div style="border: 1px solid #cfd8dc; border-radius: 8px; padding: 20px; margin: 15px 0; background-color: #f2fcfd;">
 
 <h4 style="color: #0097a7; margin-top: 0;"><span style="font-size: 1.2em;">🎯 Purpose</span></h4>
 
@@ -253,7 +251,7 @@ Share insights with stakeholders in a clear, compelling, and actionable format.
       <li>Q&A documentation</li>
       <li>Recommendations based on findings</li>
     </ul>
-    <h4 style="color: #d32f2f; margin-top: 20px;"><span style="font-size: 1.1em;">⚠️ Challenges</span></h4>
+    <h4 style="color: #c62828; margin-top: 20px;"><span style="font-size: 1.1em;">⚠️ Challenges</span></h4>
     <ul>
       <li>Translating technical concepts for non-technical audiences</li>
       <li>Managing stakeholder expectations</li>
@@ -270,7 +268,7 @@ Share insights with stakeholders in a clear, compelling, and actionable format.
 
 ### Stage 6: Decision-Making and Action ⚙️
 
-<div style="border: 1px solid #ccc; border-radius: 8px; padding: 20px; margin: 15px 0; background-color: #f9f9f9;">
+<div style="border: 1px solid #cfd8dc; border-radius: 8px; padding: 20px; margin: 15px 0; background-color: #f9f9f9;">
 
 <h4 style="color: #424242; margin-top: 0;"><span style="font-size: 1.2em;">🎯 Purpose</span></h4>
 
@@ -295,7 +293,7 @@ Implement changes or strategies based on the insights gained from the analysis.
       <li>Follow-up analysis plan</li>
       <li>Documentation of outcomes</li>
     </ul>
-    <h4 style="color: #d32f2f; margin-top: 20px;"><span style="font-size: 1.1em;">⚠️ Challenges</span></h4>
+    <h4 style="color: #c62828; margin-top: 20px;"><span style="font-size: 1.1em;">⚠️ Challenges</span></h4>
     <ul>
       <li>Overcoming organizational resistance to change</li>
       <li>Balancing data-driven decisions with other factors</li>
@@ -316,7 +314,7 @@ Implement changes or strategies based on the insights gained from the analysis.
 
 <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); gap: 20px; margin: 20px 0;">
 
-<div style="border: 1px solid #ccc; border-radius: 8px; padding: 15px; background-color: #e3f2fd;">
+<div style="background-color: #e3f2fd; padding: 15px; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
   <h3 style="color: #1565c0; text-align: center;">📥 Data Collection Tools</h3>
   <ul>
     <li><strong>Survey Platforms</strong>: SurveyMonkey, Google Forms, Qualtrics</li>
@@ -327,7 +325,7 @@ Implement changes or strategies based on the insights gained from the analysis.
   </ul>
 </div>
 
-<div style="border: 1px solid #ccc; border-radius: 8px; padding: 15px; background-color: #e8f5e9;">
+<div style="background-color: #e8f5e9; padding: 15px; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
   <h3 style="color: #2e7d32; text-align: center;">🧹 Data Cleaning Tools</h3>
   <ul>
     <li><strong>Spreadsheet Software</strong>: Microsoft Excel, Google Sheets</li>
@@ -338,7 +336,7 @@ Implement changes or strategies based on the insights gained from the analysis.
   </ul>
 </div>
 
-<div style="border: 1px solid #ccc; border-radius: 8px; padding: 15px; background-color: #f3e5f5;">
+<div style="background-color: #f3e5f5; padding: 15px; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
   <h3 style="color: #7b1fa2; text-align: center;">🔍 Data Exploration Tools</h3>
   <ul>
     <li><strong>Statistical Analysis Software</strong>: R, SPSS, SAS</li>
@@ -349,7 +347,7 @@ Implement changes or strategies based on the insights gained from the analysis.
   </ul>
 </div>
 
-<div style="border: 1px solid #ccc; border-radius: 8px; padding: 15px; background-color: #fff3e0;">
+<div style="background-color: #fff3e0; padding: 15px; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
   <h3 style="color: #ef6c00; text-align: center;">📊 Data Visualization Tools</h3>
   <ul>
     <li><strong>Visualization Libraries</strong>: Matplotlib, ggplot2, D3.js</li>
@@ -360,7 +358,7 @@ Implement changes or strategies based on the insights gained from the analysis.
   </ul>
 </div>
 
-<div style="border: 1px solid #ccc; border-radius: 8px; padding: 15px; background-color: #e0f7fa;">
+<div style="background-color: #e0f7fa; padding: 15px; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
   <h3 style="color: #0097a7; text-align: center;">📢 Communication Tools</h3>
   <ul>
     <li><strong>Presentation Software</strong>: PowerPoint, Keynote, Google Slides</li>
@@ -371,7 +369,7 @@ Implement changes or strategies based on the insights gained from the analysis.
   </ul>
 </div>
 
-<div style="border: 1px solid #ccc; border-radius: 8px; padding: 15px; background-color: #f5f5f5;">
+<div style="background-color: #f5f5f5; padding: 15px; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
   <h3 style="color: #424242; text-align: center;">⚙️ Decision-Making Tools</h3>
   <ul>
     <li><strong>Project Management</strong>: Jira, Trello, Asana</li>
@@ -390,15 +388,13 @@ Implement changes or strategies based on the insights gained from the analysis.
 
 Let's walk through a practical example of how the data analysis lifecycle applies to a business scenario:
 
-### Business Context
-
-<div style="background-color: #f5f5f5; padding: 15px; border-radius: 8px; margin-bottom: 20px;">
-<p style="margin-top: 0;"><strong>Scenario:</strong> A retail clothing store wants to improve its marketing strategy by better understanding customer purchasing patterns and preferences.</p>
+<div style="background-color: #f0f7fb; border-left: 5px solid #007bff; padding: 15px; margin: 10px 0;">
+<strong>💼 Business Context</strong>: A retail clothing store wants to improve its marketing strategy by better understanding customer purchasing patterns and preferences.
 </div>
 
 <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); gap: 20px; margin: 20px 0;">
 
-<div style="border: 1px solid #ccc; border-radius: 8px; padding: 15px; background-color: #e3f2fd;">
+<div style="background-color: #e3f2fd; padding: 15px; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
   <h3 style="color: #1565c0; text-align: center;">📥 Stage 1: Data Collection</h3>
 
   <h4><strong>Question</strong>:</h4>
@@ -422,7 +418,7 @@ Let's walk through a practical example of how the data analysis lifecycle applie
   </ul>
 </div>
 
-<div style="border: 1px solid #ccc; border-radius: 8px; padding: 15px; background-color: #e8f5e9;">
+<div style="background-color: #e8f5e9; padding: 15px; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
   <h3 style="color: #2e7d32; text-align: center;">🧹 Stage 2: Data Cleaning</h3>
 
   <h4><strong>Key Cleaning Tasks</strong>:</h4>
@@ -442,7 +438,7 @@ Let's walk through a practical example of how the data analysis lifecycle applie
   </ul>
 </div>
 
-<div style="border: 1px solid #ccc; border-radius: 8px; padding: 15px; background-color: #f3e5f5;">
+<div style="background-color: #f3e5f5; padding: 15px; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
   <h3 style="color: #7b1fa2; text-align: center;">🔍 Stage 3: Data Exploration</h3>
 
   <h4><strong>Initial Findings</strong>:</h4>
@@ -463,7 +459,7 @@ Let's walk through a practical example of how the data analysis lifecycle applie
   </ul>
 </div>
 
-<div style="border: 1px solid #ccc; border-radius: 8px; padding: 15px; background-color: #fff3e0;">
+<div style="background-color: #fff3e0; padding: 15px; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
   <h3 style="color: #ef6c00; text-align: center;">📊 Stage 4: Data Visualization</h3>
 
   <h4><strong>Visualizations Created</strong>:</h4>
@@ -476,11 +472,11 @@ Let's walk through a practical example of how the data analysis lifecycle applie
   </ul>
 
   <div style="display: flex; justify-content: center; margin: 15px 0;">
-    <img src="image/lesson3/case_study_visualization.png" alt="Sample Customer Segmentation" width="90%" style="border-radius: 5px; box-shadow: 0 2px 4px rgba(0,0,0,0.2);">
+    <img src="image/lesson3/case_study_visualization.png" alt="Sample Customer Segmentation" width="90%" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
   </div>
 </div>
 
-<div style="border: 1px solid #ccc; border-radius: 8px; padding: 15px; background-color: #e0f7fa;">
+<div style="background-color: #e0f7fa; padding: 15px; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
   <h3 style="color: #0097a7; text-align: center;">📢 Stage 5: Communication</h3>
 
   <h4><strong>Key Insights Communicated</strong>:</h4>
@@ -500,7 +496,7 @@ Let's walk through a practical example of how the data analysis lifecycle applie
   </ul>
 </div>
 
-<div style="border: 1px solid #ccc; border-radius: 8px; padding: 15px; background-color: #f5f5f5;">
+<div style="background-color: #f5f5f5; padding: 15px; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
   <h3 style="color: #424242; text-align: center;">⚙️ Stage 6: Decision-Making</h3>
 
   <h4><strong>Implemented Actions</strong>:</h4>
@@ -536,19 +532,19 @@ Let's walk through a practical example of how the data analysis lifecycle applie
 
 ### Case Study: Public Library Usage Analysis (30 minutes)
 
-<div style="background-color: #f2f6fc; border-radius: 8px; padding: 20px; margin-bottom: 20px;">
-<h4 style="margin-top: 0;"><strong>Scenario</strong>:</h4>
+<div style="background-color: #f8f4e5; border-left: 5px solid #f0ad4e; padding: 20px; margin: 10px 0; border-radius: 5px;">
+<h4 style="margin-top: 0; color: #8a6d3b;">💬 Scenario:</h4>
 <p>A public library system wants to understand how to better allocate resources and improve services based on patron usage patterns.</p>
 </div>
 
-<div style="background-color: #fff8e1; border-left: 5px solid #ffb300; padding: 15px; margin-bottom: 20px;">
-<h4 style="margin-top: 0;"><strong>Instructions</strong>:</h4>
+<div style="background-color: #e3f2fd; border-left: 6px solid #1976d2; padding: 15px; margin: 15px 0;">
+<h4 style="margin-top: 0;">Instructions</h4>
 <p>Working in groups of 3-4, develop a plan for each stage of the data analysis lifecycle for this scenario:</p>
 </div>
 
-<div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(350px, 1fr)); gap: 15px; margin-bottom: 20px;">
+<div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(350px, 1fr)); gap: 15px; margin: 15px 0;">
 
-<div style="background-color: #e3f2fd; padding: 15px; border-radius: 5px;">
+<div style="background-color: #e3f2fd; padding: 15px; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
   <h4 style="margin-top: 0; color: #1565c0;"><strong>1. Data Collection</strong> (5 minutes)</h4>
   <ul>
     <li>What specific questions should the analysis answer?</li>
@@ -557,7 +553,7 @@ Let's walk through a practical example of how the data analysis lifecycle applie
   </ul>
 </div>
 
-<div style="background-color: #e8f5e9; padding: 15px; border-radius: 5px;">
+<div style="background-color: #e8f5e9; padding: 15px; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
   <h4 style="margin-top: 0; color: #2e7d32;"><strong>2. Data Cleaning and Preparation</strong> (5 minutes)</h4>
   <ul>
     <li>What data quality issues might you expect?</li>
@@ -566,7 +562,7 @@ Let's walk through a practical example of how the data analysis lifecycle applie
   </ul>
 </div>
 
-<div style="background-color: #f3e5f5; padding: 15px; border-radius: 5px;">
+<div style="background-color: #f3e5f5; padding: 15px; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
   <h4 style="margin-top: 0; color: #7b1fa2;"><strong>3. Data Exploration and Analysis</strong> (5 minutes)</h4>
   <ul>
     <li>What initial analyses would you perform?</li>
@@ -575,7 +571,7 @@ Let's walk through a practical example of how the data analysis lifecycle applie
   </ul>
 </div>
 
-<div style="background-color: #fff3e0; padding: 15px; border-radius: 5px;">
+<div style="background-color: #fff3e0; padding: 15px; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
   <h4 style="margin-top: 0; color: #ef6c00;"><strong>4. Data Visualization</strong> (5 minutes)</h4>
   <ul>
     <li>What key visualizations would you create?</li>
@@ -584,7 +580,7 @@ Let's walk through a practical example of how the data analysis lifecycle applie
   </ul>
 </div>
 
-<div style="background-color: #e0f7fa; padding: 15px; border-radius: 5px; grid-column: span 2;">
+<div style="background-color: #e0f7fa; padding: 15px; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); grid-column: span 2;">
   <h4 style="margin-top: 0; color: #0097a7;"><strong>5. Communication and Action</strong> (5 minutes)</h4>
   <ul>
     <li>Who are the key stakeholders for your findings?</li>
@@ -595,45 +591,141 @@ Let's walk through a practical example of how the data analysis lifecycle applie
 
 </div>
 
-<div style="background-color: #f5f5f5; padding: 15px; border-radius: 5px; margin-top: 10px;">
-<h4 style="margin-top: 0;"><strong>Presentation</strong> (5 minutes)</h4>
-<p>Each group will briefly present their approach to one stage of the lifecycle</p>
+<div style="background-color: #e8f4fd; border-radius: 8px; padding: 15px; margin: 20px 0;">
+  <h4 style="margin-top: 0;">⏱️ Discussion Timeline</h4>
+  <div style="display: flex; align-items: center;">
+    <div style="width: 50px; text-align: center; font-weight: bold;">20m</div>
+    <div style="flex-grow: 1; padding-left: 10px; border-left: 2px solid #2196f3;">
+      Group work on analysis plan
+    </div>
+  </div>
+  <div style="display: flex; align-items: center; margin-top: 10px;">
+    <div style="width: 50px; text-align: center; font-weight: bold;">10m</div>
+    <div style="flex-grow: 1; padding-left: 10px; border-left: 2px solid #4caf50;">
+      Presentation and discussion
+    </div>
+  </div>
 </div>
 
 ---
 
 ## 📚 Additional Resources
 
-<div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); gap: 20px; margin: 20px 0;">
+<div style="display: flex; flex-wrap: wrap; gap: 20px; margin: 20px 0;">
+  <div style="flex: 1; min-width: 300px; padding: 20px; background-color: #f5f5f5; border-radius: 8px; box-shadow: 0 3px 6px rgba(0,0,0,0.1);">
+    <h3 style="margin-top: 0;">📕 Recommended Reading</h3>
+    <ul>
+      <li><a href="https://data-science-for-biz.com/" style="text-decoration: none; color: #0277bd;">
+        <strong>"Data Science for Business"</strong> by Foster Provost & Tom Fawcett</a>
+        <p style="margin-top: 5px; color: #555; font-size: 14px;">Fundamental principles of data science and business applications</p>
+      </li>
+      <li><a href="https://www.storytellingwithdata.com/" style="text-decoration: none; color: #0277bd;">
+        <strong>"Storytelling with Data"</strong> by Cole Nussbaumer Knaflic</a>
+        <p style="margin-top: 5px; color: #555; font-size: 14px;">Learn how to effectively communicate insights through data visualization</p>
+      </li>
+      <li><a href="https://www.oreilly.com/library/view/the-data-science/9781491938683/" style="text-decoration: none; color: #0277bd;">
+        <strong>"The Data Science Process"</strong> by Jeffrey Stanton</a>
+        <p style="margin-top: 5px; color: #555; font-size: 14px;">A comprehensive guide to the processes of data science</p>
+      </li>
+    </ul>
+  </div>
 
-<div style="background-color: #f9f9f9; padding: 15px; border-radius: 5px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
-<h3 style="margin-top: 0;">📕 Recommended Reading</h3>
-<ul>
-  <li>"Data Science for Business" by Foster Provost & Tom Fawcett</li>
-  <li>"The Data Science Process" by Jeffrey Stanton</li>
-  <li>"Storytelling with Data" by Cole Nussbaumer Knaflic</li>
-</ul>
-</div>
-
-<div style="background-color: #f9f9f9; padding: 15px; border-radius: 5px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
-<h3 style="margin-top: 0;">🌐 Online Resources</h3>
-<ul>
-  <li><a href="https://www.coursera.org/professional-certificates/google-data-analytics">Google's Data Analytics Professional Certificate</a></li>
-  <li><a href="https://towardsdatascience.com/the-data-analysis-process-5-steps-to-better-decision-making-bd292d0c2d6a">The Data Analysis Process</a></li>
-  <li><a href="https://www.ibm.com/cloud/architecture/architecture/practices/data-science-methodology-overview/">IBM's Data Science Methodology</a></li>
-</ul>
-</div>
-
+  <div style="flex: 1; min-width: 300px; padding: 20px; background-color: #f5f5f5; border-radius: 8px; box-shadow: 0 3px 6px rgba(0,0,0,0.1);">
+    <h3 style="margin-top: 0;">🔗 Online Resources</h3>
+    <ul>
+      <li><a href="https://www.coursera.org/professional-certificates/google-data-analytics" style="text-decoration: none; color: #0277bd;">
+        <strong>Google's Data Analytics Professional Certificate</strong></a>
+        <p style="margin-top: 5px; color: #555; font-size: 14px;">Comprehensive online course covering all aspects of data analysis</p>
+      </li>
+      <li><a href="https://towardsdatascience.com/the-data-analysis-process-5-steps-to-better-decision-making-bd292d0c2d6a" style="text-decoration: none; color: #0277bd;">
+        <strong>The Data Analysis Process</strong></a>
+        <p style="margin-top: 5px; color: #555; font-size: 14px;">Article explaining the data analysis process step-by-step</p>
+      </li>
+      <li><a href="https://www.ibm.com/cloud/architecture/architecture/practices/data-science-methodology-overview/" style="text-decoration: none; color: #0277bd;">
+        <strong>IBM's Data Science Methodology</strong></a>
+        <p style="margin-top: 5px; color: #555; font-size: 14px;">Professional perspective on data science methodology</p>
+      </li>
+    </ul>
+  </div>
 </div>
 
 ---
 
 ## 📋 Homework
-1. Select a public dataset of interest from [Kaggle](https://www.kaggle.com/datasets) or [Data.gov](https://data.gov/)
-2. Document a plan for applying the data analysis lifecycle to this dataset
-3. Complete the first three stages (Collection, Cleaning, and Exploration) with basic outputs
-4. Create one visualization that effectively communicates a key insight from your analysis
 
-<div style="text-align: right; font-style: italic; margin-top: 30px;">
-Next Lesson: Introduction to Data Visualization
+<div style="background-color: #f0f4f8; border: 1px solid #d1e0eb; border-radius: 8px; padding: 20px; margin: 20px 0;">
+  <h3 style="margin-top: 0;">✍️ Assignment Tasks</h3>
+
+  <div style="display: flex; align-items: flex-start; margin-bottom: 15px;">
+    <div style="background-color: #e1f5fe; color: #01579b; width: 30px; height: 30px; border-radius: 50%; display: flex; justify-content: center; align-items: center; margin-right: 15px; font-weight: bold;">1</div>
+    <div>
+      <p style="margin: 0;"><strong>Select a public dataset of interest from <a href="https://www.kaggle.com/datasets" style="color: #0277bd;">Kaggle</a> or <a href="https://data.gov" style="color: #0277bd;">Data.gov</a></strong></p>
+      <p style="margin-top: 5px; color: #555; font-size: 14px;">Choose something related to your interests or professional field</p>
+    </div>
+  </div>
+
+  <div style="display: flex; align-items: flex-start; margin-bottom: 15px;">
+    <div style="background-color: #e8f5e9; color: #1b5e20; width: 30px; height: 30px; border-radius: 50%; display: flex; justify-content: center; align-items: center; margin-right: 15px; font-weight: bold;">2</div>
+    <div>
+      <p style="margin: 0;"><strong>Document a plan for applying the data analysis lifecycle to this dataset</strong></p>
+      <p style="margin-top: 5px; color: #555; font-size: 14px;">Create a brief outline for each of the six stages we discussed</p>
+    </div>
+  </div>
+  
+  <div style="display: flex; align-items: flex-start; margin-bottom: 15px;">
+    <div style="background-color: #f3e5f5; color: #4a148c; width: 30px; height: 30px; border-radius: 50%; display: flex; justify-content: center; align-items: center; margin-right: 15px; font-weight: bold;">3</div>
+    <div>
+      <p style="margin: 0;"><strong>Complete the first three stages (Collection, Cleaning, and Exploration) with basic outputs</strong></p>
+      <p style="margin-top: 5px; color: #555; font-size: 14px;">Document your process and include example outputs from each stage</p>
+    </div>
+  </div>
+  
+  <div style="display: flex; align-items: flex-start;">
+    <div style="background-color: #fff3e0; color: #e65100; width: 30px; height: 30px; border-radius: 50%; display: flex; justify-content: center; align-items: center; margin-right: 15px; font-weight: bold;">4</div>
+    <div>
+      <p style="margin: 0;"><strong>Create one visualization that effectively communicates a key insight from your analysis</strong></p>
+      <p style="margin-top: 5px; color: #555; font-size: 14px;">Include an explanation of why you chose this visualization and what insight it reveals</p>
+    </div>
+  </div>
+
+  <div style="margin-top: 20px; padding-top: 15px; border-top: 1px dashed #ccc;">
+    <div style="display: flex; align-items: center;">
+      <div style="background-color: #ede7f6; color: #4527a0; width: 25px; height: 25px; border-radius: 50%; display: flex; justify-content: center; align-items: center; margin-right: 15px;">📅</div>
+      <p style="margin: 0;"><strong>Due date:</strong> May 17, 2025 (before next class)</p>
+    </div>
+    <div style="display: flex; align-items: center; margin-top: 10px;">
+      <div style="background-color: #e0f2f1; color: #004d40; width: 25px; height: 25px; border-radius: 50%; display: flex; justify-content: center; align-items: center; margin-right: 15px;">📝</div>
+      <p style="margin: 0;"><strong>Submission format:</strong> Jupyter Notebook or PDF document via the course portal</p>
+    </div>
+  </div>
+</div>
+
+<div style="background-color: #f0f4f8; border: 1px solid #d1e0eb; border-radius: 5px; padding: 20px; margin-top: 20px;">
+  <h3 style="margin-top: 0; display: flex; align-items: center;"><span style="background-color: #9575cd; color: white; width: 30px; height: 30px; border-radius: 50%; display: inline-flex; justify-content: center; align-items: center; margin-right: 10px;">💪</span> Challenge Exercise (Optional)</h3>
+  <p>Complete the entire data analysis lifecycle for your selected dataset, including all six stages. Create a dashboard or presentation that could be delivered to stakeholders with actionable recommendations based on your findings.</p>
+
+  <div style="background-color: #e3f2fd; padding: 10px; border-left: 4px solid #1976d2; margin-top: 15px; border-radius: 4px;">
+    <p style="margin: 0; font-size: 14px;"><strong>Tip:</strong> For the Decision-Making stage, you can create hypothetical scenarios about how your insights might inform real-world actions or policies.</p>
+  </div>
+</div>
+
+---
+
+<div style="display: flex; justify-content: space-between; align-items: center; margin-top: 40px;">
+  <div style="background-color: #f0f4f8; padding: 10px; border-radius: 5px;">
+    <strong>🗓️ Today:</strong> May 10, 2025
+  </div>
+  <div style="text-align: right; font-style: italic;">
+    <p>Next Lesson: Introduction to Data Visualization</p>
+    <p style="color: #555; font-size: 14px;">Date: May 17, 2025</p>
+  </div>
+</div>
+
+<div style="display: flex; justify-content: center; margin-top: 20px;">
+  <div style="background-color: #f5f5f5; padding: 10px; border-radius: 5px; width: 100%; max-width: 500px; text-align: center;">
+    <span style="color: #4caf50; font-size: 20px;">✓</span> <strong>Lesson 3 Complete</strong> - 3 of 6 <span style="color: #4caf50; font-size: 20px;">✓</span><br>
+    <div style="background-color: #e0e0e0; height: 10px; border-radius: 5px; margin-top: 10px; overflow: hidden;">
+      <div style="background-color: #4caf50; width: 50%; height: 100%;"></div>
+    </div>
+  </div>
 </div>

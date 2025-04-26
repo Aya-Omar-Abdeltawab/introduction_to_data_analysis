@@ -1,4 +1,4 @@
-# 📊 Lesson 2: Types of Data and Data Collection
+# 📊 Lesson 2: Types of Data and Data Collection 🔍
 
 ## Overview
 **Duration**: 1 hour
@@ -18,17 +18,17 @@
 ## 1. 📊 Qualitative vs. Quantitative Data
 
 <div style="display: flex; justify-content: center; align-items: center; padding: 20px;">
-<table style="border-collapse: collapse; width: 90%;">
+<table style="border-collapse: collapse; width: 90%; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
   <tr>
-    <th style="background-color: #3f6184; color: white; padding: 12px; text-align: center; width: 50%;">Quantitative Data</th>
-    <th style="background-color: #7d4e57; color: white; padding: 12px; text-align: center; width: 50%;">Qualitative Data</th>
+    <th style="background-color: #3f6184; color: white; padding: 12px; text-align: center; width: 50%; border-bottom: 3px solid #2c4361;">Quantitative Data</th>
+    <th style="background-color: #7d4e57; color: white; padding: 12px; text-align: center; width: 50%; border-bottom: 3px solid #5a383f;">Qualitative Data</th>
   </tr>
   <tr>
-    <td style="border: 1px solid #ccc; padding: 10px; vertical-align: top;">
+    <td style="border: 1px solid #cfd8dc; padding: 10px; vertical-align: top;">
       <strong>📏 Definition:</strong> Information that can be counted, measured, and expressed using numbers<br><br>
       <strong>🔢 Answers questions like:</strong> "How much," "how many," or "how often"
     </td>
-    <td style="border: 1px solid #ccc; padding: 10px; vertical-align: top;">
+    <td style="border: 1px solid #cfd8dc; padding: 10px; vertical-align: top;">
       <strong>📝 Definition:</strong> Describes qualities or characteristics that cannot be easily measured with numbers<br><br>
       <strong>❓ Answers questions like:</strong> "why," "how," or "what"
     </td>
@@ -51,7 +51,7 @@
 - Time: 45 minutes
 - Score: 85/100
 
-<div style="padding: 15px; margin: 10px 0; background-color: #f8f9fa; border-left: 4px solid #5bc0de;">
+<div style="background-color: #e3f2fd; border-left: 6px solid #1976d2; padding: 15px; margin: 15px 0;">
 <h4 style="margin-top: 0;">Subtypes of Quantitative Data</h4>
 
 <div style="display: flex; margin-top: 10px;">
@@ -91,7 +91,7 @@
 - Mood: Happy, Sad, Anxious
 - Category: Vegetable, Fruit, Grain
 
-<div style="padding: 15px; margin: 10px 0; background-color: #f8f9fa; border-left: 4px solid #5bc0de;">
+<div style="background-color: #e3f2fd; border-left: 6px solid #1976d2; padding: 15px; margin: 15px 0;">
 <h4 style="margin-top: 0;">Subtypes of Qualitative Data</h4>
 
 <div style="display: flex; margin-top: 10px;">
@@ -114,7 +114,11 @@
 </div>
 </div>
 
-> **💡 Note**: Both data types are valuable, and many robust analyses combine qualitative and quantitative approaches.
+<div style="background-color: #f0f7fb; border-left: 5px solid #007bff; padding: 15px; margin: 10px 0;">
+<blockquote style="font-style: italic; font-size: 1.1em; margin: 0;">
+"Both data types are valuable, and many robust analyses combine qualitative and quantitative approaches."
+</blockquote>
+</div>
 
 ---
 
@@ -202,16 +206,16 @@ A hybrid category that contains elements of both structured and unstructured dat
 ## 3. 📂 Sources of Data
 
 <div style="display: flex; justify-content: center; align-items: center; margin: 20px 0;">
-<table style="border-collapse: collapse; width: 90%; text-align: center;">
+<table style="border-collapse: collapse; width: 90%; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
   <tr>
-    <th colspan="2" style="background-color: #3a506b; color: white; padding: 10px;">Data Sources</th>
+    <th colspan="2" style="background-color: #263238; color: white; padding: 10px; border-bottom: 3px solid #37474f;">Data Sources</th>
   </tr>
   <tr>
     <td style="background-color: #1d3557; color: white; padding: 12px; width: 50%;">Primary Sources</td>
     <td style="background-color: #457b9d; color: white; padding: 12px; width: 50%;">Secondary Sources</td>
   </tr>
   <tr>
-    <td style="border: 1px solid #ccc; padding: 8px; text-align: left; vertical-align: top;">
+    <td style="border: 1px solid #cfd8dc; padding: 8px; text-align: left; vertical-align: top;">
       <ul>
         <li>Surveys and questionnaires</li>
         <li>Interviews and focus groups</li>
@@ -220,7 +224,7 @@ A hybrid category that contains elements of both structured and unstructured dat
         <li>Field research</li>
       </ul>
     </td>
-    <td style="border: 1px solid #ccc; padding: 8px; text-align: left; vertical-align: top;">
+    <td style="border: 1px solid #cfd8dc; padding: 8px; text-align: left; vertical-align: top;">
       <ul>
         <li>Public databases</li>
         <li>Government reports</li>
@@ -236,9 +240,9 @@ A hybrid category that contains elements of both structured and unstructured dat
 ### Primary Data Sources
 Primary data is collected directly by the researcher for a specific purpose.
 
-<div style="display: flex; background-color: #f8f9fa; padding: 15px; border-radius: 5px; margin: 10px 0;">
-  <div style="flex: 1; padding-right: 15px;">
-    <h4>✅ Advantages</h4>
+<div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 15px; margin: 15px 0;">
+  <div style="background-color: #e8f5e9; padding: 15px; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
+    <h4 style="margin-top: 0; color: #2e7d32;"><span style="font-size: 1.2em;">✅</span> Advantages</h4>
     <ul>
       <li>Collected for the specific research question</li>
       <li>Researcher has full control over collection methods</li>
@@ -246,8 +250,8 @@ Primary data is collected directly by the researcher for a specific purpose.
       <li>Proprietary information advantage</li>
     </ul>
   </div>
-  <div style="flex: 1; padding-left: 15px; border-left: 1px solid #ddd;">
-    <h4>⚠️ Disadvantages</h4>
+  <div style="background-color: #ffebee; padding: 15px; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
+    <h4 style="margin-top: 0; color: #c62828;"><span style="font-size: 1.2em;">⚠️</span> Disadvantages</h4>
     <ul>
       <li>Time-consuming and expensive to collect</li>
       <li>Requires expertise in research design</li>
@@ -259,45 +263,50 @@ Primary data is collected directly by the researcher for a specific purpose.
 
 #### Common Primary Data Collection Methods:
 
-<div style="margin-left: 20px;">
-<h5>📝 Surveys and Questionnaires</h5>
-<ul>
-  <li>Online surveys (e.g., Google Forms, SurveyMonkey)</li>
-  <li>Paper surveys</li>
-  <li>Email questionnaires</li>
-  <li>Mobile polling</li>
-</ul>
-
-<h5>🎙️ Interviews</h5>
-<ul>
-  <li>Structured interviews (predetermined questions)</li>
-  <li>Semi-structured interviews (guided but flexible)</li>
-  <li>Unstructured interviews (conversational)</li>
-  <li>Focus groups (group discussions)</li>
-</ul>
-
-<h5>👁️ Observations</h5>
-<ul>
-  <li>Direct observation (watching behavior)</li>
-  <li>Participant observation (immersion in setting)</li>
-  <li>Field research (natural environment)</li>
-  <li>Laboratory observations (controlled environment)</li>
-</ul>
-
-<h5>🧪 Experiments</h5>
-<ul>
-  <li>Controlled experiments (manipulating variables)</li>
-  <li>Field experiments (real-world settings)</li>
-  <li>A/B testing (comparing variations)</li>
-</ul>
+<div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 15px; margin: 15px 0;">
+  <div style="background-color: #e3f2fd; padding: 15px; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
+    <h4 style="margin-top: 0; color: #1565c0;"><span style="font-size: 1.2em;">📝</span> Surveys and Questionnaires</h4>
+    <ul>
+      <li>Online surveys (e.g., Google Forms, SurveyMonkey)</li>
+      <li>Paper surveys</li>
+      <li>Email questionnaires</li>
+      <li>Mobile polling</li>
+    </ul>
+  </div>
+  <div style="background-color: #f3e5f5; padding: 15px; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
+    <h4 style="margin-top: 0; color: #7b1fa2;"><span style="font-size: 1.2em;">🎙️</span> Interviews</h4>
+    <ul>
+      <li>Structured interviews (predetermined questions)</li>
+      <li>Semi-structured interviews (guided but flexible)</li>
+      <li>Unstructured interviews (conversational)</li>
+      <li>Focus groups (group discussions)</li>
+    </ul>
+  </div>
+  <div style="background-color: #e0f7fa; padding: 15px; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
+    <h4 style="margin-top: 0; color: #0097a7;"><span style="font-size: 1.2em;">👁️</span> Observations</h4>
+    <ul>
+      <li>Direct observation (watching behavior)</li>
+      <li>Participant observation (immersion in setting)</li>
+      <li>Field research (natural environment)</li>
+      <li>Laboratory observations (controlled environment)</li>
+    </ul>
+  </div>
+  <div style="background-color: #fff3e0; padding: 15px; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
+    <h4 style="margin-top: 0; color: #ef6c00;"><span style="font-size: 1.2em;">🧪</span> Experiments</h4>
+    <ul>
+      <li>Controlled experiments (manipulating variables)</li>
+      <li>Field experiments (real-world settings)</li>
+      <li>A/B testing (comparing variations)</li>
+    </ul>
+  </div>
 </div>
 
 ### Secondary Data Sources
 Secondary data is collected by someone else for a different primary purpose.
 
-<div style="display: flex; background-color: #f8f9fa; padding: 15px; border-radius: 5px; margin: 10px 0;">
-  <div style="flex: 1; padding-right: 15px;">
-    <h4>✅ Advantages</h4>
+<div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 15px; margin: 15px 0;">
+  <div style="background-color: #e8f5e9; padding: 15px; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
+    <h4 style="margin-top: 0; color: #2e7d32;"><span style="font-size: 1.2em;">✅</span> Advantages</h4>
     <ul>
       <li>Time and cost-efficient</li>
       <li>Often larger sample sizes</li>
@@ -305,8 +314,8 @@ Secondary data is collected by someone else for a different primary purpose.
       <li>No data collection burden</li>
     </ul>
   </div>
-  <div style="flex: 1; padding-left: 15px; border-left: 1px solid #ddd;">
-    <h4>⚠️ Disadvantages</h4>
+  <div style="background-color: #ffebee; padding: 15px; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
+    <h4 style="margin-top: 0; color: #c62828;"><span style="font-size: 1.2em;">⚠️</span> Disadvantages</h4>
     <ul>
       <li>Not tailored to specific research needs</li>
       <li>May be outdated</li>
@@ -318,9 +327,9 @@ Secondary data is collected by someone else for a different primary purpose.
 
 #### Common Secondary Data Sources:
 
-<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 15px; margin: 15px 0;">
-  <div style="background-color: #f1f8e9; padding: 10px; border-left: 4px solid #7cb342; border-radius: 4px;">
-    <h5>🏛️ Public Records and Government Data</h5>
+<div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 15px; margin: 15px 0;">
+  <div style="background-color: #f1f8e9; padding: 15px; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
+    <h4 style="margin-top: 0; color: #558b2f;"><span style="font-size: 1.2em;">🏛️</span> Public Records and Government Data</h4>
     <ul>
       <li>Census data</li>
       <li>Economic indicators</li>
@@ -329,8 +338,8 @@ Secondary data is collected by someone else for a different primary purpose.
       <li>Crime statistics</li>
     </ul>
   </div>
-  <div style="background-color: #e8f5e9; padding: 10px; border-left: 4px solid #66bb6a; border-radius: 4px;">
-    <h5>💼 Commercial and Business Sources</h5>
+  <div style="background-color: #e8f5e9; padding: 15px; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
+    <h4 style="margin-top: 0; color: #2e7d32;"><span style="font-size: 1.2em;">💼</span> Commercial and Business Sources</h4>
     <ul>
       <li>Industry reports</li>
       <li>Market research</li>
@@ -338,8 +347,8 @@ Secondary data is collected by someone else for a different primary purpose.
       <li>Company annual reports</li>
     </ul>
   </div>
-  <div style="background-color: #e0f2f1; padding: 10px; border-left: 4px solid #26a69a; border-radius: 4px;">
-    <h5>🎓 Academic and Research Resources</h5>
+  <div style="background-color: #e0f2f1; padding: 15px; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
+    <h4 style="margin-top: 0; color: #00796b;"><span style="font-size: 1.2em;">🎓</span> Academic and Research Resources</h4>
     <ul>
       <li>Academic journals</li>
       <li>Research publications</li>
@@ -347,8 +356,8 @@ Secondary data is collected by someone else for a different primary purpose.
       <li>Case studies</li>
     </ul>
   </div>
-  <div style="background-color: #e0f7fa; padding: 10px; border-left: 4px solid #00acc1; border-radius: 4px;">
-    <h5>🌐 Web and Digital Sources</h5>
+  <div style="background-color: #e0f7fa; padding: 15px; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
+    <h4 style="margin-top: 0; color: #0097a7;"><span style="font-size: 1.2em;">🌐</span> Web and Digital Sources</h4>
     <ul>
       <li>Social media data</li>
       <li>Website analytics</li>
@@ -365,41 +374,41 @@ Secondary data is collected by someone else for a different primary purpose.
 
 ### Data Quality Dimensions
 
-<div style="display: flex; flex-wrap: wrap; gap: 10px; justify-content: space-between; margin: 15px 0;">
-  <div style="flex: 0 0 48%; background-color: #e3f2fd; padding: 12px; border-radius: 5px;">
-    <h4 style="margin-top: 0;"><span style="color: #1565c0;">✓</span> Accuracy</h4>
+<div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 15px; margin: 15px 0;">
+  <div style="background-color: #e3f2fd; padding: 15px; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
+    <h4 style="margin-top: 0; color: #1565c0;"><span style="font-size: 1.2em;">✓</span> Accuracy</h4>
     <ul>
       <li>Correctness of the data</li>
       <li>Free from errors and reliable</li>
       <li>Verified against trusted sources</li>
     </ul>
   </div>
-  <div style="flex: 0 0 48%; background-color: #e8eaf6; padding: 12px; border-radius: 5px;">
-    <h4 style="margin-top: 0;"><span style="color: #3949ab;">☑</span> Completeness</h4>
+  <div style="background-color: #e8eaf6; padding: 15px; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
+    <h4 style="margin-top: 0; color: #3949ab;"><span style="font-size: 1.2em;">☑</span> Completeness</h4>
     <ul>
       <li>All required data is present</li>
       <li>No essential information missing</li>
       <li>Adequate population coverage</li>
     </ul>
   </div>
-  <div style="flex: 0 0 48%; background-color: #f3e5f5; padding: 12px; border-radius: 5px;">
-    <h4 style="margin-top: 0;"><span style="color: #7b1fa2;">🔄</span> Consistency</h4>
+  <div style="background-color: #f3e5f5; padding: 15px; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
+    <h4 style="margin-top: 0; color: #7b1fa2;"><span style="font-size: 1.2em;">🔄</span> Consistency</h4>
     <ul>
       <li>Data values don't contradict each other</li>
       <li>Uniform formatting across similar data</li>
       <li>Logical coherence within the dataset</li>
     </ul>
   </div>
-  <div style="flex: 0 0 48%; background-color: #fff3e0; padding: 12px; border-radius: 5px;">
-    <h4 style="margin-top: 0;"><span style="color: #ef6c00;">⏱️</span> Timeliness</h4>
+  <div style="background-color: #fff3e0; padding: 15px; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
+    <h4 style="margin-top: 0; color: #ef6c00;"><span style="font-size: 1.2em;">⏱️</span> Timeliness</h4>
     <ul>
       <li>Data is up-to-date</li>
       <li>Available when needed</li>
       <li>Relevant to the current situation</li>
     </ul>
   </div>
-  <div style="flex: 0 0 100%; background-color: #e8f5e9; padding: 12px; border-radius: 5px;">
-    <h4 style="margin-top: 0;"><span style="color: #2e7d32;">🎯</span> Relevance</h4>
+  <div style="background-color: #e8f5e9; padding: 15px; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
+    <h4 style="margin-top: 0; color: #2e7d32;"><span style="font-size: 1.2em;">🎯</span> Relevance</h4>
     <ul>
       <li>Applicable to the analysis objectives</li>
       <li>Adds value to decision-making</li>
@@ -410,8 +419,8 @@ Secondary data is collected by someone else for a different primary purpose.
 
 ### Data Ethics and Privacy
 
-<div style="background-color: #f8f9fa; padding: 15px; border-radius: 5px; margin-top: 15px;">
-<h4>🔑 Key Ethical Considerations</h4>
+<div style="background-color: #f0f7fb; border-left: 5px solid #007bff; padding: 15px; margin: 15px 0;">
+<h4 style="margin-top: 0;">🔑 Key Ethical Considerations</h4>
 
 <div style="margin-left: 15px;">
 <h5>🤝 Informed Consent</h5>
@@ -437,11 +446,11 @@ Secondary data is collected by someone else for a different primary purpose.
 </div>
 </div>
 
-<div style="background-color: #e8eaf6; padding: 15px; border-radius: 5px; margin-top: 15px;">
-<h4>⚖️ Compliance Frameworks</h4>
+<div style="background-color: #e3f2fd; border-left: 6px solid #1976d2; padding: 15px; margin: 15px 0;">
+<h4 style="margin-top: 0;">⚖️ Compliance Frameworks</h4>
 
 <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 15px; margin-top: 15px;">
-  <div style="background-color: white; padding: 10px; border-radius: 4px; box-shadow: 0 2px 4px rgba(0,0,0,0.05);">
+  <div style="background-color: white; padding: 10px; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.05);">
     <h5><span style="color: #1a237e;">🇪🇺</span> GDPR (General Data Protection Regulation)</h5>
     <ul>
       <li>European Union's comprehensive data protection law</li>
@@ -450,7 +459,7 @@ Secondary data is collected by someone else for a different primary purpose.
     </ul>
   </div>
 
-  <div style="background-color: white; padding: 10px; border-radius: 4px; box-shadow: 0 2px 4px rgba(0,0,0,0.05);">
+  <div style="background-color: white; padding: 10px; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.05);">
     <h5><span style="color: #b71c1c;">🇺🇸</span> CCPA (California Consumer Privacy Act)</h5>
     <ul>
       <li>California's privacy legislation</li>
@@ -459,7 +468,7 @@ Secondary data is collected by someone else for a different primary purpose.
     </ul>
   </div>
 
-  <div style="background-color: white; padding: 10px; border-radius: 4px; box-shadow: 0 2px 4px rgba(0,0,0,0.05);">
+  <div style="background-color: white; padding: 10px; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.05);">
     <h5><span style="color: #0d47a1;">⚕️</span> HIPAA (Health Insurance Portability and Accountability Act)</h5>
     <ul>
       <li>U.S. protection for medical information</li>
@@ -470,7 +479,11 @@ Secondary data is collected by someone else for a different primary purpose.
 </div>
 </div>
 
-> **💡 Best Practice**: Always implement privacy by design - building privacy considerations into data collection systems from the beginning rather than adding them later.
+<div style="background-color: #f0f7fb; border-left: 5px solid #007bff; padding: 15px; margin: 10px 0;">
+<blockquote style="font-style: italic; font-size: 1.1em; margin: 0;">
+"Always implement privacy by design - building privacy considerations into data collection systems from the beginning rather than adding them later."
+</blockquote>
+</div>
 
 ---
 
@@ -478,8 +491,8 @@ Secondary data is collected by someone else for a different primary purpose.
 
 ### Group Exercise (20 minutes)
 
-<div style="background-color: #fff8e1; border-left: 5px solid #ffc107; padding: 15px; margin: 10px 0;">
-<h4 style="margin-top: 0;">Instructions</h4>
+<div style="background-color: #f8f4e5; border-left: 5px solid #f0ad4e; padding: 20px; margin: 10px 0; border-radius: 5px;">
+<h4 style="margin-top: 0; color: #8a6d3b;">💬 Instructions</h4>
 <ol>
   <li>Form groups of 3-4</li>
   <li>For each example below, classify the data as:
@@ -494,8 +507,8 @@ Secondary data is collected by someone else for a different primary purpose.
 </ol>
 </div>
 
-<div style="background-color: #f5f5f5; padding: 15px; border-radius: 5px; margin: 15px 0;">
-<h4>Examples to Classify:</h4>
+<div style="background-color: #e8f4fd; border-radius: 8px; padding: 15px; margin: 20px 0;">
+<h4 style="margin-top: 0;">Examples to Classify:</h4>
 
 <ol style="column-count: 2;">
   <li>Customer satisfaction ratings (1-5 stars)</li>
@@ -516,7 +529,7 @@ Secondary data is collected by someone else for a different primary purpose.
 - Discuss any examples where groups disagreed
 - Consider how the data type influences how you would collect and analyze it
 
-<div style="display: flex; justify-content: center; margin-top: 20px;">
+<div style="display: flex; justify-content: center; margin: 20px 0;">
   <img src="image/lesson2/data_classification_workflow.png" alt="Data Classification Workflow" width="70%" style="border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
 </div>
 
@@ -524,31 +537,105 @@ Secondary data is collected by someone else for a different primary purpose.
 
 ## 📚 Additional Resources
 
-### Recommended Reading:
-- [📕 "Data Science from Scratch" by Joel Grus](https://www.oreilly.com/library/view/data-science-from/9781492041122/)
-- [📗 "Practical Statistics for Data Scientists" by Peter Bruce & Andrew Bruce](https://www.oreilly.com/library/view/practical-statistics-for/9781491952955/)
+<div style="display: flex; flex-wrap: wrap; gap: 20px; margin: 20px 0;">
+  <div style="flex: 1; min-width: 300px; padding: 20px; background-color: #f5f5f5; border-radius: 8px; box-shadow: 0 3px 6px rgba(0,0,0,0.1);">
+    <h3 style="margin-top: 0;">📕 Recommended Reading</h3>
+    <ul>
+      <li><a href="https://www.oreilly.com/library/view/data-science-from/9781492041122/" style="text-decoration: none; color: #0277bd;">
+        <strong>"Data Science from Scratch"</strong> by Joel Grus</a>
+        <p style="margin-top: 5px; color: #555; font-size: 14px;">Learn practical approaches to data collection and analysis from the ground up</p>
+      </li>
+      <li><a href="https://www.oreilly.com/library/view/practical-statistics-for/9781491952955/" style="text-decoration: none; color: #0277bd;">
+        <strong>"Practical Statistics for Data Scientists"</strong> by Peter Bruce & Andrew Bruce</a>
+        <p style="margin-top: 5px; color: #555; font-size: 14px;">Essential statistical methods and their applications in data science</p>
+      </li>
+    </ul>
+  </div>
 
-### Online Resources:
-- [🔗 Types of Data in Statistics](https://www.khanacademy.org/math/statistics-probability/designing-studies/types-of-studies/v/types-of-data)
-- [🔗 Data Ethics Framework](https://www.gov.uk/government/publications/data-ethics-framework)
-- [🔗 GDPR Official Documentation](https://gdpr.eu/)
-
----
-
-## 📋 Homework
-1. Find three real-world datasets - one primarily quantitative, one primarily qualitative, and one that contains both types of data
-2. For each dataset, identify:
-   - The source (primary or secondary)
-   - The structure (structured, semi-structured, or unstructured)
-   - Any potential ethical considerations when using this data
-
-<div style="background-color: #e8f4fd; border: 1px solid #b3e0ff; border-radius: 5px; padding: 15px; margin-top: 20px;">
-<h3 style="margin-top: 0;">💪 Challenge Exercise (Optional)</h3>
-<p>Select a business or organization you're familiar with and create a data inventory. List 5-10 types of data they likely collect, and classify each according to the categories we've discussed today. For each data type, briefly note any ethical or privacy considerations that should be addressed.</p>
+  <div style="flex: 1; min-width: 300px; padding: 20px; background-color: #f5f5f5; border-radius: 8px; box-shadow: 0 3px 6px rgba(0,0,0,0.1);">
+    <h3 style="margin-top: 0;">🔗 Online Resources</h3>
+    <ul>
+      <li><a href="https://www.khanacademy.org/math/statistics-probability/designing-studies/types-of-studies/v/types-of-data" style="text-decoration: none; color: #0277bd;">
+        <strong>Types of Data in Statistics</strong> - Khan Academy</a>
+        <p style="margin-top: 5px; color: #555; font-size: 14px;">Free tutorials on data types and statistical foundations</p>
+      </li>
+      <li><a href="https://www.gov.uk/government/publications/data-ethics-framework" style="text-decoration: none; color: #0277bd;">
+        <strong>Data Ethics Framework</strong> - UK Government</a>
+        <p style="margin-top: 5px; color: #555; font-size: 14px;">Guidance on ethical approaches to data collection and analysis</p>
+      </li>
+      <li><a href="https://gdpr.eu/" style="text-decoration: none; color: #0277bd;">
+        <strong>GDPR Official Documentation</strong></a>
+        <p style="margin-top: 5px; color: #555; font-size: 14px;">Complete guide to European data protection regulations</p>
+      </li>
+    </ul>
+  </div>
 </div>
 
 ---
 
-<div style="text-align: right; font-style: italic; margin-top: 30px;">
-Next Lesson: The Data Analysis Lifecycle
+## 📋 Homework
+
+<div style="background-color: #f0f4f8; border: 1px solid #d1e0eb; border-radius: 8px; padding: 20px; margin: 20px 0;">
+  <h3 style="margin-top: 0;">✍️ Assignment Tasks</h3>
+
+  <div style="display: flex; align-items: flex-start; margin-bottom: 15px;">
+    <div style="background-color: #e1f5fe; color: #01579b; width: 30px; height: 30px; border-radius: 50%; display: flex; justify-content: center; align-items: center; margin-right: 15px; font-weight: bold;">1</div>
+    <div>
+      <p style="margin: 0;"><strong>Find three real-world datasets - one primarily quantitative, one primarily qualitative, and one that contains both types of data</strong></p>
+      <p style="margin-top: 5px; color: #555; font-size: 14px;">For each dataset, identify the source type, structure, and any potential ethical considerations</p>
+    </div>
+  </div>
+
+  <div style="display: flex; align-items: flex-start;">
+    <div style="background-color: #e8f5e9; color: #1b5e20; width: 30px; height: 30px; border-radius: 50%; display: flex; justify-content: center; align-items: center; margin-right: 15px; font-weight: bold;">2</div>
+    <div>
+      <p style="margin: 0;"><strong>For each dataset, document:</strong></p>
+      <ul style="margin-top: 5px; color: #555; font-size: 14px;">
+        <li>The source (primary or secondary)</li>
+        <li>The structure (structured, semi-structured, or unstructured)</li>
+        <li>Any potential ethical considerations when using this data</li>
+      </ul>
+    </div>
+  </div>
+
+  <div style="margin-top: 20px; padding-top: 15px; border-top: 1px dashed #ccc;">
+    <div style="display: flex; align-items: center;">
+      <div style="background-color: #ede7f6; color: #4527a0; width: 25px; height: 25px; border-radius: 50%; display: flex; justify-content: center; align-items: center; margin-right: 15px;">📅</div>
+      <p style="margin: 0;"><strong>Due date:</strong> May 10, 2025 (before next class)</p>
+    </div>
+    <div style="display: flex; align-items: center; margin-top: 10px;">
+      <div style="background-color: #e0f2f1; color: #004d40; width: 25px; height: 25px; border-radius: 50%; display: flex; justify-content: center; align-items: center; margin-right: 15px;">📝</div>
+      <p style="margin: 0;"><strong>Submission format:</strong> PDF or Word document via the course portal</p>
+    </div>
+  </div>
+</div>
+
+<div style="background-color: #f0f4f8; border: 1px solid #d1e0eb; border-radius: 5px; padding: 20px; margin-top: 20px;">
+  <h3 style="margin-top: 0; display: flex; align-items: center;"><span style="background-color: #9575cd; color: white; width: 30px; height: 30px; border-radius: 50%; display: inline-flex; justify-content: center; align-items: center; margin-right: 10px;">💪</span> Challenge Exercise (Optional)</h3>
+  <p>Select a business or organization you're familiar with and create a data inventory. List 5-10 types of data they likely collect, and classify each according to the categories we've discussed today. For each data type, briefly note any ethical or privacy considerations that should be addressed.</p>
+
+  <div style="background-color: #e3f2fd; padding: 10px; border-left: 4px solid #1976d2; margin-top: 15px; border-radius: 4px;">
+    <p style="margin: 0; font-size: 14px;"><strong>Tip:</strong> Consider starting with obvious data types like customer information, then think about less obvious data such as website analytics or employee performance metrics.</p>
+  </div>
+</div>
+
+---
+
+<div style="display: flex; justify-content: space-between; align-items: center; margin-top: 40px;">
+  <div style="background-color: #f0f4f8; padding: 10px; border-radius: 5px;">
+    <strong>🗓️ Today:</strong> May 3, 2025
+  </div>
+  <div style="text-align: right; font-style: italic;">
+    <p>Next Lesson: The Data Analysis Lifecycle</p>
+    <p style="color: #555; font-size: 14px;">Date: May 10, 2025</p>
+  </div>
+</div>
+
+<div style="display: flex; justify-content: center; margin-top: 20px;">
+  <div style="background-color: #f5f5f5; padding: 10px; border-radius: 5px; width: 100%; max-width: 500px; text-align: center;">
+    <span style="color: #4caf50; font-size: 20px;">✓</span> <strong>Lesson 2 Complete</strong> - 2 of 6 <span style="color: #4caf50; font-size: 20px;">✓</span><br>
+    <div style="background-color: #e0e0e0; height: 10px; border-radius: 5px; margin-top: 10px; overflow: hidden;">
+      <div style="background-color: #4caf50; width: 33.33%; height: 100%;"></div>
+    </div>
+  </div>
 </div>
