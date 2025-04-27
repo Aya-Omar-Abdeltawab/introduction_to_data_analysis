@@ -329,7 +329,38 @@ Secondary data is collected by someone else for a different primary purpose.
 - Discuss any examples where groups disagreed
 - Consider how the data type influences how you would collect and analyze it
 
-![Data Classification Workflow](image/lesson2/data_classification_workflow.png)
+```mermaid
+flowchart TD
+    A[Raw Data] --> B{Qualitative or\nQuantitative?}
+
+    B -->|Qualitative| C{Type?}
+    B -->|Quantitative| D{Type?}
+
+    C -->|Nominal| E[Categories with\nno inherent order]
+    C -->|Ordinal| F[Categories with\nmeaningful rank]
+
+    D -->|Discrete| G[Countable,\nwhole values]
+    D -->|Continuous| H[Measurable,\nany value in range]
+
+    E --> I{Structure?}
+    F --> I
+    G --> I
+    H --> I
+
+    I -->|Structured| J[Organized in\npredefined format]
+    I -->|Unstructured| K[No predefined\norganization]
+    I -->|Semi-structured| L[Some organization,\nflexible format]
+
+    J --> M{Source?}
+    K --> M
+    L --> M
+
+    M -->|Primary| N[Collected directly\nfor specific purpose]
+    M -->|Secondary| O[Collected by others\nfor different purpose]
+
+    N --> P[Data Ready\nfor Analysis]
+    O --> P
+```
 
 ---
 

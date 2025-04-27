@@ -138,7 +138,7 @@ Data analysis is the process of inspecting, cleansing, transforming, and modelin
 #### 📜 Descriptive Analytics
 
 - **Focus:** Understanding what happened
-- **Question answered:** "What occurred?"
+- **Question answered:** "What happened?"
 - **Example:** Monthly sales reports, website traffic statistics
 - **Tools:** Reports, dashboards, basic visualizations
 - *"Our average sales decreased by 5% compared to last quarter."*
@@ -146,7 +146,7 @@ Data analysis is the process of inspecting, cleansing, transforming, and modelin
 #### 🔍 Diagnostic Analytics
 
 - **Focus:** Understanding why it happened
-- **Question answered:** "Why did it occur?"
+- **Question answered:** "Why did it happen?"
 - **Example:** Analyzing why sales dropped in a particular region
 - **Tools:** Drill-down analysis, correlation analysis, root cause exploration
 - *"Sales decreased because our main competitor launched a discount campaign."*
@@ -154,7 +154,7 @@ Data analysis is the process of inspecting, cleansing, transforming, and modelin
 #### 🔮 Predictive Analytics
 
 - **Focus:** Forecasting what might happen
-- **Question answered:** "What is likely to occur?"
+- **Question answered:** "What will be happen?"
 - **Example:** Weather forecasts, stock market predictions
 - **Tools:** Regression analysis, machine learning models, time series forecasting
 - *"Based on current trends, we forecast a 12% sales increase next quarter."*
@@ -162,7 +162,7 @@ Data analysis is the process of inspecting, cleansing, transforming, and modelin
 #### 🧭 Prescriptive Analytics
 
 - **Focus:** Determining actions to take
-- **Question answered:** "What should we do?"
+- **Question answered:** "What should I do?"
 - **Example:** Automated inventory ordering systems, personalized medicine
 - **Tools:** Optimization algorithms, simulation, decision trees, AI
 - *"To maximize profits next quarter, increase production of Product A by 15% and reduce marketing for Product B."*
