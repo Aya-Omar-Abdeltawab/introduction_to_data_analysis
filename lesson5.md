@@ -339,160 +339,47 @@ Modern data analysis increasingly relies on cloud-based tools that offer scalabi
 
 ### Tool Selection Framework
 
-<div style="background-color: #e6f7ff; border-left: 6px solid #1890ff; padding: 15px; margin: 20px 0;">
-<strong>🔍 Key Question:</strong> Which tool is best suited for your specific data analysis task?
-</div>
+**🔍 Key Question:** Which tool is best suited for your specific data analysis task?
 
 When deciding which tool to use for a data analysis task, consider these factors:
 
-<table style="width: 100%; border-collapse: collapse; margin: 20px 0;">
-  <tr style="background-color: #f0f0f0;">
-    <th style="padding: 12px; width: 20%;">Factor</th>
-    <th style="padding: 12px; width: 40%;">Considerations</th>
-    <th style="padding: 12px; width: 40%;">Tool Recommendations</th>
-  </tr>
-  <tr>
-    <td style="padding: 12px; font-weight: bold;">📊 Data Volume</td>
-    <td style="padding: 12px;">
-      <ul>
-        <li>Small: Fits in memory (<100K rows)</li>
-        <li>Medium: Requires optimization (100K-10M rows)</li>
-        <li>Large: Distributed systems needed (>10M rows)</li>
-      </ul>
-    </td>
-    <td style="padding: 12px;">
-      <ul>
-        <li><strong>Small:</strong> Spreadsheets, R/Python</li>
-        <li><strong>Medium:</strong> SQL databases, optimized Python/R</li>
-        <li><strong>Large:</strong> Cloud platforms, Spark, big data tools</li>
-      </ul>
-    </td>
-  </tr>
-  <tr style="background-color: #f9f9f9;">
-    <td style="padding: 12px; font-weight: bold;">🧮 Analysis Complexity</td>
-    <td style="padding: 12px;">
-      <ul>
-        <li>Basic: Sums, averages, filters</li>
-        <li>Intermediate: Statistical tests, regressions</li>
-        <li>Advanced: Machine learning, network analysis</li>
-      </ul>
-    </td>
-    <td style="padding: 12px;">
-      <ul>
-        <li><strong>Basic:</strong> Spreadsheets, SQL</li>
-        <li><strong>Intermediate:</strong> R, Python, specialized statistics software</li>
-        <li><strong>Advanced:</strong> Python, R, specialized ML platforms</li>
-      </ul>
-    </td>
-  </tr>
-  <tr>
-    <td style="padding: 12px; font-weight: bold;">👁️ Output Requirements</td>
-    <td style="padding: 12px;">
-      <ul>
-        <li>Static reports or tables</li>
-        <li>Interactive dashboards</li>
-        <li>Automated systems/pipelines</li>
-        <li>Embedded analytics in applications</li>
-      </ul>
-    </td>
-    <td style="padding: 12px;">
-      <ul>
-        <li><strong>Static:</strong> Any tool with export capabilities</li>
-        <li><strong>Interactive:</strong> Tableau, Power BI, Shiny, Dash</li>
-        <li><strong>Automated:</strong> Python/R with scheduling, cloud services</li>
-        <li><strong>Embedded:</strong> BI platforms with API access</li>
-      </ul>
-    </td>
-  </tr>
-  <tr style="background-color: #f9f9f9;">
-    <td style="padding: 12px; font-weight: bold;">👥 User Expertise</td>
-    <td style="padding: 12px;">
-      <ul>
-        <li>Beginner: No programming experience</li>
-        <li>Intermediate: Some technical skills</li>
-        <li>Advanced: Comfortable with coding and algorithms</li>
-      </ul>
-    </td>
-    <td style="padding: 12px;">
-      <ul>
-        <li><strong>Beginner:</strong> Spreadsheets, BI tools with GUIs</li>
-        <li><strong>Intermediate:</strong> SQL, basic Python/R</li>
-        <li><strong>Advanced:</strong> Advanced Python/R, specialized tools</li>
-      </ul>
-    </td>
-  </tr>
-  <tr>
-    <td style="padding: 12px; font-weight: bold;">🤝 Collaboration Needs</td>
-    <td style="padding: 12px;">
-      <ul>
-        <li>Solo project</li>
-        <li>Small team collaboration</li>
-        <li>Enterprise with multiple stakeholders</li>
-        <li>Public sharing requirements</li>
-      </ul>
-    </td>
-    <td style="padding: 12px;">
-      <ul>
-        <li><strong>Solo:</strong> Any tool</li>
-        <li><strong>Small team:</strong> Cloud tools, version control</li>
-        <li><strong>Enterprise:</strong> Platforms with access control</li>
-        <li><strong>Public:</strong> Tools with sharing capabilities</li>
-      </ul>
-    </td>
-  </tr>
-</table>
+| Factor | Considerations | Tool Recommendations |
+|--------|---------------|---------------------|
+| **📊 Data Volume** | • Small: Fits in memory (<100K rows)<br>• Medium: Requires optimization (100K-10M rows)<br>• Large: Distributed systems needed (>10M rows) | • **Small:** Spreadsheets, R/Python<br>• **Medium:** SQL databases, optimized Python/R<br>• **Large:** Cloud platforms, Spark, big data tools |
+| **🧮 Analysis Complexity** | • Basic: Sums, averages, filters<br>• Intermediate: Statistical tests, regressions<br>• Advanced: Machine learning, network analysis | • **Basic:** Spreadsheets, SQL<br>• **Intermediate:** R, Python, specialized statistics software<br>• **Advanced:** Python, R, specialized ML platforms |
+| **👁️ Output Requirements** | • Static reports or tables<br>• Interactive dashboards<br>• Automated systems/pipelines<br>• Embedded analytics in applications | • **Static:** Any tool with export capabilities<br>• **Interactive:** Tableau, Power BI, Shiny, Dash<br>• **Automated:** Python/R with scheduling, cloud services<br>• **Embedded:** BI platforms with API access |
+| **👥 User Expertise** | • Beginner: No programming experience<br>• Intermediate: Some technical skills<br>• Advanced: Comfortable with coding and algorithms | • **Beginner:** Spreadsheets, BI tools with GUIs<br>• **Intermediate:** SQL, basic Python/R<br>• **Advanced:** Advanced Python/R, specialized tools |
+| **🤝 Collaboration Needs** | • Solo project<br>• Small team collaboration<br>• Enterprise with multiple stakeholders<br>• Public sharing requirements | • **Solo:** Any tool<br>• **Small team:** Cloud tools, version control<br>• **Enterprise:** Platforms with access control<br>• **Public:** Tools with sharing capabilities |
 
-<div style="display: flex; flex-wrap: wrap; gap: 15px; margin: 20px 0;">
+#### ✅ When to use Spreadsheets
+- Quick ad-hoc analysis needed
+- Small to medium datasets
+- Non-technical audience
+- Simple calculations and charts
+- One-time or infrequent analysis
 
-<div style="flex: 1; min-width: 250px; padding: 15px; background-color: #f6ffed; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
-<h4>✅ When to use Spreadsheets</h4>
-<ul>
-<li>Quick ad-hoc analysis needed</li>
-<li>Small to medium datasets</li>
-<li>Non-technical audience</li>
-<li>Simple calculations and charts</li>
-<li>One-time or infrequent analysis</li>
-</ul>
-</div>
+#### ✅ When to use Python/R
+- Reproducible analysis required
+- Complex statistical methods needed
+- Automation is important
+- Data processing pipelines
+- Machine learning applications
 
-<div style="flex: 1; min-width: 250px; padding: 15px; background-color: #e6f7ff; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
-<h4>✅ When to use Python/R</h4>
-<ul>
-<li>Reproducible analysis required</li>
-<li>Complex statistical methods needed</li>
-<li>Automation is important</li>
-<li>Data processing pipelines</li>
-<li>Machine learning applications</li>
-</ul>
-</div>
+#### ✅ When to use SQL/Databases
+- Working with relational data
+- Large structured datasets
+- Multi-user access needed
+- Data integrity is critical
+- Combining data from multiple sources
 
-<div style="flex: 1; min-width: 250px; padding: 15px; background-color: #fff7e6; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
-<h4>✅ When to use SQL/Databases</h4>
-<ul>
-<li>Working with relational data</li>
-<li>Large structured datasets</li>
-<li>Multi-user access needed</li>
-<li>Data integrity is critical</li>
-<li>Combining data from multiple sources</li>
-</ul>
-</div>
+#### ✅ When to use BI Tools
+- Interactive dashboards needed
+- Visualizations for non-technical users
+- Regular reporting requirements
+- Business metrics monitoring
+- Self-service analytics environment
 
-<div style="flex: 1; min-width: 250px; padding: 15px; background-color: #f9f0ff; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
-<h4>✅ When to use BI Tools</h4>
-<ul>
-<li>Interactive dashboards needed</li>
-<li>Visualizations for non-technical users</li>
-<li>Regular reporting requirements</li>
-<li>Business metrics monitoring</li>
-<li>Self-service analytics environment</li>
-</ul>
-</div>
-
-</div>
-
-<div style="background-color: #fcf4db; border-left: 6px solid #faad14; padding: 15px; margin: 20px 0;">
-<strong>💡 Remember:</strong> The best tool is often the one you know well. For many analyses, using a familiar tool efficiently is better than struggling with a theoretically more powerful but unfamiliar one.
-</div>
+> **💡 Remember:** The best tool is often the one you know well. For many analyses, using a familiar tool efficiently is better than struggling with a theoretically more powerful but unfamiliar one.
 
 ---
 
@@ -640,167 +527,105 @@ In a visualization tool demonstration, you would see the instructor using a drag
 
 ## Activity: Tool Demonstration 🛠️👨‍🏫
 
-<div style="background-color: #f0f5ff; border-left: 6px solid #2f54eb; padding: 15px; margin: 20px 0;">
-<strong>Hands-on Learning:</strong> In this activity, you'll see how different tools approach the same data analysis problem, helping you understand their relative strengths and workflows.
-</div>
+**Hands-on Learning:** In this activity, you'll see how different tools approach the same data analysis problem, helping you understand their relative strengths and workflows.
 
 ### Instructor-Led Tool Comparison (30 minutes)
 
 During this activity, the instructor will provide a live demonstration of Excel and Python to show how the same data analysis task can be accomplished using different tools.
 
-<table style="width: 100%; border-collapse: collapse; margin: 20px 0; border: 1px solid #d9d9d9;">
-  <tr style="background-color: #f0f0f0;">
-    <th style="padding: 12px; text-align: left; border: 1px solid #d9d9d9;" colspan="2">Analysis Setup</th>
-  </tr>
-  <tr>
-    <td style="padding: 12px; font-weight: bold; width: 20%; border: 1px solid #d9d9d9;">Dataset:</td>
-    <td style="padding: 12px; border: 1px solid #d9d9d9;">
-      Retail sales data containing transaction records with:
-      <ul>
-        <li>Date</li>
-        <li>Store location</li>
-        <li>Product category</li>
-        <li>Sales amount</li>
-        <li>Units sold</li>
-        <li>Customer demographics</li>
-      </ul>
-    </td>
-  </tr>
-  <tr style="background-color: #f9f9f9;">
-    <td style="padding: 12px; font-weight: bold; border: 1px solid #d9d9d9;">Analysis Goal:</td>
-    <td style="padding: 12px; border: 1px solid #d9d9d9;">Identify sales trends by product category and region, and determine which factors most influence sales performance.</td>
-  </tr>
-</table>
+#### Analysis Setup
 
-<div style="display: flex; flex-wrap: wrap; gap: 20px; margin: 20px 0;">
+**Dataset:**
+- Retail sales data containing transaction records with:
+  - Date
+  - Store location
+  - Product category
+  - Sales amount
+  - Units sold
+  - Customer demographics
 
-<div style="flex: 1; min-width: 300px; padding: 20px; background-color: #f6ffed; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
-<h4>📊 Excel Demonstration (15 minutes)</h4>
-<ol>
-<li>Data import and organization</li>
-<li>Creating a pivot table to summarize sales by category and region</li>
-<li>Adding calculated fields for average transaction value</li>
-<li>Creating visualizations (bar chart, line chart)</li>
-<li>Using filtering to focus on specific time periods</li>
-<li>Exporting results for sharing</li>
-</ol>
-<img src="image/lesson5/excel_demo.png" alt="Excel Demo" style="width: 100%; margin-top: 10px; border-radius: 4px;">
-</div>
+**Analysis Goal:** Identify sales trends by product category and region, and determine which factors most influence sales performance.
 
-<div style="flex: 1; min-width: 300px; padding: 20px; background-color: #e6f7ff; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
-<h4>🐍 Python Demonstration (15 minutes)</h4>
-<ol>
-<li>Loading data with pandas</li>
-<li>Data cleaning and preparation</li>
-<li>Exploratory analysis with groupby operations</li>
-<li>Statistical analysis to identify correlations</li>
-<li>Creating visualizations with matplotlib and seaborn</li>
-<li>Exporting results to various formats</li>
-</ol>
-<img src="image/lesson5/python_demo.png" alt="Python Demo" style="width: 100%; margin-top: 10px; border-radius: 4px;">
-</div>
+#### 📊 Excel Demonstration (15 minutes)
+1. Data import and organization
+2. Creating a pivot table to summarize sales by category and region
+3. Adding calculated fields for average transaction value
+4. Creating visualizations (bar chart, line chart)
+5. Using filtering to focus on specific time periods
+6. Exporting results for sharing
 
-</div>
+![Excel Demo](image/lesson5/excel_demo.png)
 
-<div style="background-color: #fff7e6; border-left: 6px solid #fa8c16; padding: 15px; margin: 20px 0;">
-<strong>Key Comparison Points:</strong>
-<ul>
-<li>Ease of use for different operations</li>
-<li>Time required for similar tasks</li>
-<li>Flexibility and customization options</li>
-<li>Reproducibility of the analysis</li>
-<li>Handling of larger data volumes</li>
-<li>Documentation capabilities</li>
-</ul>
-</div>
+#### 🐍 Python Demonstration (15 minutes)
+1. Loading data with pandas
+2. Data cleaning and preparation
+3. Exploratory analysis with groupby operations
+4. Statistical analysis to identify correlations
+5. Creating visualizations with matplotlib and seaborn
+6. Exporting results to various formats
+
+![Python Demo](image/lesson5/python_demo.png)
+
+**Key Comparison Points:**
+- Ease of use for different operations
+- Time required for similar tasks
+- Flexibility and customization options
+- Reproducibility of the analysis
+- Handling of larger data volumes
+- Documentation capabilities
 
 ### Student Discussion (15 minutes) 🗣️💭
 
 After the demonstrations, students will discuss:
 
-<div style="padding: 15px; background-color: #f9f0ff; border-radius: 8px; margin: 15px 0;">
-<h4>Discussion Questions:</h4>
+#### Discussion Questions:
 
-<ol style="margin-bottom: 0;">
-<li>What were the advantages and disadvantages of each approach?</li>
-<li>Which tool seemed more appropriate for different aspects of the analysis?</li>
-<li>How might your choice of tool change depending on:
-   <ul>
-   <li>Dataset size</li>
-   <li>Analysis complexity</li>
-   <li>Audience for your results</li>
-   <li>Collaboration requirements</li>
-   </ul>
-</li>
-<li>What questions do you have about the tools demonstrated or others mentioned in the lesson?</li>
-</ol>
-</div>
+1. What were the advantages and disadvantages of each approach?
+2. Which tool seemed more appropriate for different aspects of the analysis?
+3. How might your choice of tool change depending on:
+   - Dataset size
+   - Analysis complexity
+   - Audience for your results
+   - Collaboration requirements
+4. What questions do you have about the tools demonstrated or others mentioned in the lesson?
 
-<table style="width: 100%; border-collapse: collapse; margin: 20px 0;">
-  <tr style="background-color: #f0f0f0;">
-    <th style="padding: 12px; width: 33%;">Reflection Prompt</th>
-    <th style="padding: 12px; width: 33%;">Consider</th>
-    <th style="padding: 12px; width: 34%;">Your Notes</th>
-  </tr>
-  <tr>
-    <td style="padding: 12px; vertical-align: top;">For your current or planned data projects, which tool would be most appropriate?</td>
-    <td style="padding: 12px; vertical-align: top;">
-      <ul>
-        <li>Project requirements</li>
-        <li>Audience needs</li>
-        <li>Your current skills</li>
-      </ul>
-    </td>
-    <td style="padding: 12px; height: 80px; background-color: #fafafa; border: 1px dashed #d9d9d9;">
-      <!-- Space for notes -->
-    </td>
-  </tr>
-</table>
+#### Reflection Prompt
+
+For your current or planned data projects, which tool would be most appropriate? Consider:
+- Project requirements
+- Audience needs
+- Your current skills
 
 ---
 
 ## Homework Assignment 📝
 
-<div style="background-color: #f0f5ff; border-left: 6px solid #2f54eb; padding: 15px; margin: 20px 0;">
-<strong>Due:</strong> Before the next class session
-</div>
+**Due:** Before the next class session
 
 ### Tool Exploration Task
 
-<div style="padding: 15px; background-color: #f6ffed; border-radius: 8px; margin: 15px 0; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
-<h4>📋 Instructions:</h4>
+#### 📋 Instructions:
 
-<ol>
-<li>Choose <strong>one tool from each category</strong> discussed today:
-   <ul>
-   <li>Spreadsheet tool (Excel, Google Sheets, etc.)</li>
-   <li>Programming language/environment (Python, R, etc.)</li>
-   <li>Database/SQL platform (MySQL, PostgreSQL, SQLite, etc.)</li>
-   <li>Visualization tool (Tableau, Power BI, etc.)</li>
-   </ul>
-</li>
-<li>For each chosen tool:
-   <ul>
-   <li>Find and review at least one tutorial or getting started guide</li>
-   <li>List 3-5 key features that would be useful for data analysis</li>
-   <li>Identify what types of analysis tasks it seems best suited for</li>
-   </ul>
-</li>
-<li>If possible, download and install one of the free tools mentioned and complete a simple "Hello World" equivalent task (e.g., import data, create a basic chart)</li>
-<li>Write a brief reflection (1 paragraph) on which tool you found most interesting and why</li>
-</ol>
-</div>
+1. Choose **one tool from each category** discussed today:
+   - Spreadsheet tool (Excel, Google Sheets, etc.)
+   - Programming language/environment (Python, R, etc.)
+   - Database/SQL platform (MySQL, PostgreSQL, SQLite, etc.)
+   - Visualization tool (Tableau, Power BI, etc.)
+
+2. For each chosen tool:
+   - Find and review at least one tutorial or getting started guide
+   - List 3-5 key features that would be useful for data analysis
+   - Identify what types of analysis tasks it seems best suited for
+
+3. If possible, download and install one of the free tools mentioned and complete a simple "Hello World" equivalent task (e.g., import data, create a basic chart)
+
+4. Write a brief reflection (1 paragraph) on which tool you found most interesting and why
 
 ### Submission Format
 
 Please organize your homework using the following template:
 
-<div style="border: 1px solid #d9d9d9; border-radius: 8px; margin: 20px 0; overflow: hidden;">
-  <div style="background-color: #f0f0f0; padding: 10px 15px; border-bottom: 1px solid #d9d9d9;">
-    <strong>Homework Submission Template</strong>
-  </div>
-  <div style="padding: 15px;">
-<pre style="background-color: #f9f9f9; padding: 10px; border-radius: 4px; margin: 0;">
+```
 # Tool Exploration Assignment
 
 ## Spreadsheet Tool: [Name]
@@ -842,13 +667,9 @@ Screenshot: [If applicable]
 
 ## Reflection
 [Your paragraph about which tool was most interesting and why]
-</pre>
-  </div>
-</div>
+```
 
-<div style="background-color: #fff7e6; border-left: 6px solid #fa8c16; padding: 15px; margin: 20px 0;">
-<strong>💡 Pro Tip:</strong> Focus on exploring tools that might be relevant to your current work or study interests. This will make the assignment more valuable for your personal development.
-</div>
+**💡 Pro Tip:** Focus on exploring tools that might be relevant to your current work or study interests. This will make the assignment more valuable for your personal development.
 
 ---
 
@@ -856,112 +677,43 @@ Screenshot: [If applicable]
 
 ### Learning Resources by Tool Category
 
-<div style="display: flex; flex-wrap: wrap; gap: 15px; margin: 20px 0;">
+#### 📊 Excel and Spreadsheets
+- [Microsoft Excel Tutorial](https://support.microsoft.com/en-us/excel)
+- [Excel for Data Analysis (Coursera)](https://www.coursera.org/learn/excel-data-analysis)
+- [Google Sheets Training and Help](https://support.google.com/a/users/answer/9282959)
+- [ExcelJet Formula Database](https://exceljet.net/formulas)
 
-<div style="flex: 1; min-width: 220px; padding: 15px; background-color: #f6ffed; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
-<h4>📊 Excel and Spreadsheets</h4>
-<ul>
-<li><a href="https://support.microsoft.com/en-us/excel">Microsoft Excel Tutorial</a></li>
-<li><a href="https://www.coursera.org/learn/excel-data-analysis">Excel for Data Analysis (Coursera)</a></li>
-<li><a href="https://support.google.com/a/users/answer/9282959">Google Sheets Training and Help</a></li>
-<li><a href="https://exceljet.net/formulas">ExcelJet Formula Database</a></li>
-</ul>
-</div>
+#### 🐍 Python
+- [Python for Data Science Handbook](https://jakevdp.github.io/PythonDataScienceHandbook/)
+- [Codecademy Python Course](https://www.codecademy.com/learn/learn-python-3)
+- [DataCamp Python for Data Science](https://www.datacamp.com/tracks/python-programmer)
+- [Pandas 10-Minute Tutorial](https://pandas.pydata.org/docs/user_guide/10min.html)
 
-<div style="flex: 1; min-width: 220px; padding: 15px; background-color: #e6f7ff; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
-<h4>🐍 Python</h4>
-<ul>
-<li><a href="https://jakevdp.github.io/PythonDataScienceHandbook/">Python for Data Science Handbook</a></li>
-<li><a href="https://www.codecademy.com/learn/learn-python-3">Codecademy Python Course</a></li>
-<li><a href="https://www.datacamp.com/tracks/python-programmer">DataCamp Python for Data Science</a></li>
-<li><a href="https://pandas.pydata.org/docs/user_guide/10min.html">Pandas 10-Minute Tutorial</a></li>
-</ul>
-</div>
+#### 🗄️ SQL
+- [W3Schools SQL Tutorial](https://www.w3schools.com/sql/)
+- [Mode SQL Tutorial](https://mode.com/sql-tutorial/)
+- [SQL for Data Analysis (Udacity)](https://www.udacity.com/course/sql-for-data-analysis--ud198)
+- [SQLBolt Interactive Lessons](https://sqlbolt.com/)
 
-<div style="flex: 1; min-width: 220px; padding: 15px; background-color: #fff7e6; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
-<h4>🗄️ SQL</h4>
-<ul>
-<li><a href="https://www.w3schools.com/sql/">W3Schools SQL Tutorial</a></li>
-<li><a href="https://mode.com/sql-tutorial/">Mode SQL Tutorial</a></li>
-<li><a href="https://www.udacity.com/course/sql-for-data-analysis--ud198">SQL for Data Analysis (Udacity)</a></li>
-<li><a href="https://sqlbolt.com/">SQLBolt Interactive Lessons</a></li>
-</ul>
-</div>
-
-<div style="flex: 1; min-width: 220px; padding: 15px; background-color: #f9f0ff; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
-<h4>📈 Visualization Tools</h4>
-<ul>
-<li><a href="https://public.tableau.com/">Tableau Public</a></li>
-<li><a href="https://powerbi.microsoft.com/en-us/learning/">Microsoft Power BI Learning</a></li>
-<li><a href="https://www.datavisualizationsociety.com/resources">Data Visualization Society</a></li>
-<li><a href="https://d3js.org/examples">D3.js Examples Gallery</a></li>
-</ul>
-</div>
-
-</div>
+#### 📈 Visualization Tools
+- [Tableau Public](https://public.tableau.com/)
+- [Microsoft Power BI Learning](https://powerbi.microsoft.com/en-us/learning/)
+- [Data Visualization Society](https://www.datavisualizationsociety.com/resources)
+- [D3.js Examples Gallery](https://d3js.org/examples)
 
 ### Free Tool Options
 
-<table style="width: 100%; border-collapse: collapse; margin: 20px 0;">
-  <tr style="background-color: #f0f0f0;">
-    <th style="padding: 12px;">Category</th>
-    <th style="padding: 12px;">Free Options</th>
-    <th style="padding: 12px;">Best For</th>
-  </tr>
-  <tr>
-    <td style="padding: 12px; font-weight: bold;">Spreadsheets</td>
-    <td style="padding: 12px;">
-      <ul>
-        <li>Google Sheets</li>
-        <li>LibreOffice Calc</li>
-        <li>Microsoft Excel Online</li>
-      </ul>
-    </td>
-    <td style="padding: 12px;">Quick analyses, simple visualizations, collaborative editing, data organization</td>
-  </tr>
-  <tr style="background-color: #f9f9f9;">
-    <td style="padding: 12px; font-weight: bold;">Programming</td>
-    <td style="padding: 12px;">
-      <ul>
-        <li>Python with Anaconda distribution</li>
-        <li>R with RStudio Desktop</li>
-        <li>Google Colab</li>
-        <li>Jupyter Notebooks</li>
-      </ul>
-    </td>
-    <td style="padding: 12px;">Advanced analytics, automation, custom visualizations, reproducible research</td>
-  </tr>
-  <tr>
-    <td style="padding: 12px; font-weight: bold;">Databases</td>
-    <td style="padding: 12px;">
-      <ul>
-        <li>SQLite</li>
-        <li>MySQL Community Edition</li>
-        <li>PostgreSQL</li>
-        <li>DuckDB</li>
-      </ul>
-    </td>
-    <td style="padding: 12px;">Structured data storage, multi-table relationships, data integrity, multi-user access</td>
-  </tr>
-  <tr style="background-color: #f9f9f9;">
-    <td style="padding: 12px; font-weight: bold;">Visualization</td>
-    <td style="padding: 12px;">
-      <ul>
-        <li>Tableau Public</li>
-        <li>Power BI Desktop</li>
-        <li>Google Data Studio</li>
-        <li>Flourish</li>
-      </ul>
-    </td>
-    <td style="padding: 12px;">Interactive dashboards, shareable visualizations, data storytelling</td>
-  </tr>
-</table>
+| Category | Free Options | Best For |
+|----------|-------------|----------|
+| **Spreadsheets** | • Google Sheets<br>• LibreOffice Calc<br>• Microsoft Excel Online | Quick analyses, simple visualizations, collaborative editing, data organization |
+| **Programming** | • Python with Anaconda distribution<br>• R with RStudio Desktop<br>• Google Colab<br>• Jupyter Notebooks | Advanced analytics, automation, custom visualizations, reproducible research |
+| **Databases** | • SQLite<br>• MySQL Community Edition<br>• PostgreSQL<br>• DuckDB | Structured data storage, multi-table relationships, data integrity, multi-user access |
+| **Visualization** | • Tableau Public<br>• Power BI Desktop<br>• Google Data Studio<br>• Flourish | Interactive dashboards, shareable visualizations, data storytelling |
 
-<div style="padding: 15px; background-color: #e6f7ff; border-radius: 8px; margin: 15px 0; text-align: center;">
-<h4>🔗 Course Resource Repository</h4>
-<p>Access example datasets, additional tutorials, and reference materials at:</p>
-<a href="https://github.com/datalearning/resources" style="display: inline-block; padding: 8px 16px; background-color: #1890ff; color: white; text-decoration: none; border-radius: 4px; font-weight: bold;">Course GitHub Repository</a>
-</div>
+#### 🔗 Course Resource Repository
+Access example datasets, additional tutorials, and reference materials at:
+
+[Course GitHub Repository](https://github.com/datalearning/resources)
 
 ---
 
