@@ -1,13 +1,7 @@
 # 📊 Lesson 3: The Data Analysis Lifecycle 🔍
 
-## Overview
-**Duration**: 1 hour
-**Date**: May 10, 2025
-![Status](https://img.shields.io/badge/Status-Active-brightgreen) ![Level](https://img.shields.io/badge/Level-Beginner-blue)
-
----
-
 ## 🎯 Learning Objectives
+
 - Understand the complete lifecycle of a data analysis project
 - Identify the key activities and deliverables for each stage
 - Recognize appropriate tools for different stages of analysis
@@ -27,20 +21,21 @@ The data analysis lifecycle is a structured approach to turning raw data into ac
 
 ## 2. 🛠️ Stages of Data Analysis
 
-| Stage | Icon | Focus |
-|-------|------|-------|
-| **Data Collection** | 📥 | Gathering relevant data from appropriate sources |
-| **Data Cleaning** | 🧹 | Transforming raw data into usable format |
-| **Data Exploration** | 🔍 | Examining data to identify patterns and insights |
-| **Data Visualization** | 📊 | Translating findings into visual formats |
-| **Communication** | 📢 | Sharing insights with stakeholders |
-| **Decision-Making** | ⚙️ | Applying insights to business actions |
+| Stage                            | Focus                                            |
+| -------------------------------- | ------------------------------------------------ |
+| **Data Collection**  📥    | Gathering relevant data from appropriate sources |
+| **Data Cleaning**  🧹      | Transforming raw data into usable format         |
+| **Data Exploration**  🔍   | Examining data to identify patterns and insights |
+| **Data Visualization**  📊 | Translating findings into visual formats         |
+| **Communication**  📢      | Sharing insights with stakeholders               |
+| **Decision-Making**  ⚙️  | Applying insights to business actions            |
 
 ### Stage 1: Data Collection 📥
 
 **🎯 Purpose**: Gather relevant data from appropriate sources to address the research question or business need.
 
 #### 🔑 Key Activities:
+
 - Define clear objectives and questions to be answered
 - Identify potential data sources (internal systems, external providers, etc.)
 - Determine collection methods (APIs, databases, surveys, etc.)
@@ -48,11 +43,13 @@ The data analysis lifecycle is a structured approach to turning raw data into ac
 - Establish data governance standards for the project
 
 #### 📦 Deliverables:
+
 - Raw dataset(s)
 - Data collection methodology documentation
 - Initial data catalog or inventory
 
 #### ⚠️ Challenges:
+
 - Ensuring data relevance to the research question
 - Accessing and extracting data from various systems
 - Handling permissions and privacy concerns
@@ -65,6 +62,7 @@ The data analysis lifecycle is a structured approach to turning raw data into ac
 **🎯 Purpose**: Transform raw data into a clean, consistent, and usable format for analysis.
 
 #### 🔑 Key Activities:
+
 - Remove duplicate entries
 - Handle missing values (deletion, imputation, etc.)
 - Correct errors and inconsistencies
@@ -74,12 +72,14 @@ The data analysis lifecycle is a structured approach to turning raw data into ac
 - Create derived variables as needed
 
 #### 📦 Deliverables:
+
 - Cleaned dataset
 - Data dictionary explaining variables
 - Documentation of cleaning steps and decisions
 - Validation report showing data quality metrics
 
 #### ⚠️ Challenges:
+
 - Identifying anomalies without domain knowledge
 - Making appropriate decisions about missing data
 - Maintaining data integrity during transformations
@@ -92,6 +92,7 @@ The data analysis lifecycle is a structured approach to turning raw data into ac
 **🎯 Purpose**: Examine the data to identify patterns, relationships, and insights that address the research question.
 
 #### 🔑 Key Activities:
+
 - Calculate descriptive statistics (mean, median, etc.)
 - Identify correlations and relationships between variables
 - Apply statistical tests and models
@@ -100,12 +101,14 @@ The data analysis lifecycle is a structured approach to turning raw data into ac
 - Iterate through various analytical approaches
 
 #### 📦 Deliverables:
+
 - Exploratory data analysis (EDA) report
 - Statistical summaries and test results
 - Analytical models with performance metrics
 - Key findings and initial insights
 
 #### ⚠️ Challenges:
+
 - Avoiding confirmation bias in analysis
 - Selecting appropriate analytical methods
 - Distinguishing correlation from causation
@@ -118,6 +121,7 @@ The data analysis lifecycle is a structured approach to turning raw data into ac
 **🎯 Purpose**: Translate complex findings into visual formats that clearly communicate insights.
 
 #### 🔑 Key Activities:
+
 - Select appropriate visualization types for different data
 - Create clear, accurate, and meaningful visualizations
 - Design dashboards for interactive exploration
@@ -125,12 +129,14 @@ The data analysis lifecycle is a structured approach to turning raw data into ac
 - Ensure visualizations are accessible and inclusive
 
 #### 📦 Deliverables:
+
 - Static visualizations (charts, graphs, etc.)
 - Interactive dashboards
 - Infographics or visual summaries
 - Technical documentation of visualization methods
 
 #### ⚠️ Challenges:
+
 - Choosing the right visualization for the data type
 - Avoiding misleading representations
 - Balancing simplicity with information density
@@ -149,6 +155,7 @@ The data analysis lifecycle is a structured approach to turning raw data into ac
 **Data type**: Categorical with numeric values
 
 **Example use cases**:
+
 - Sales by product category
 - Survey responses by demographic group
 - Performance metrics across departments
@@ -160,6 +167,7 @@ The data analysis lifecycle is a structured approach to turning raw data into ac
 **Data type**: Categorical with multiple numeric variables
 
 **Example use cases**:
+
 - Sales by region and product category
 - Expenses by department across quarters
 - Test scores by school and subject
@@ -171,6 +179,7 @@ The data analysis lifecycle is a structured approach to turning raw data into ac
 **Data type**: Multiple metrics for comparison
 
 **Example use cases**:
+
 - Performance evaluations across multiple dimensions
 - Product features comparison
 - Skills assessment profiles
@@ -184,6 +193,7 @@ The data analysis lifecycle is a structured approach to turning raw data into ac
 **Data type**: Time series
 
 **Example use cases**:
+
 - Stock price changes over time
 - Monthly website traffic trends
 - Temperature fluctuations through seasons
@@ -195,6 +205,7 @@ The data analysis lifecycle is a structured approach to turning raw data into ac
 **Data type**: Time series with emphasis on magnitude
 
 **Example use cases**:
+
 - Market share evolution over time
 - Cumulative project progress
 - Website traffic sources over time
@@ -206,6 +217,7 @@ The data analysis lifecycle is a structured approach to turning raw data into ac
 **Data type**: Time series with range data
 
 **Example use cases**:
+
 - Stock or cryptocurrency price movements
 - Trading data analysis
 - Price volatility patterns
@@ -219,6 +231,7 @@ The data analysis lifecycle is a structured approach to turning raw data into ac
 **Data type**: Continuous numeric data
 
 **Example use cases**:
+
 - Age distribution of customers
 - Test score distributions
 - Response time frequencies
@@ -230,6 +243,7 @@ The data analysis lifecycle is a structured approach to turning raw data into ac
 **Data type**: Numeric data with statistical spread
 
 **Example use cases**:
+
 - Salary distributions by department
 - Product performance variability
 - Comparing data spread across groups
@@ -241,6 +255,7 @@ The data analysis lifecycle is a structured approach to turning raw data into ac
 **Data type**: Continuous data with multiple distributions
 
 **Example use cases**:
+
 - Comparing distributions across categories
 - Analyzing bimodal data patterns
 - Customer rating distributions by product
@@ -254,6 +269,7 @@ The data analysis lifecycle is a structured approach to turning raw data into ac
 **Data type**: Two numeric variables
 
 **Example use cases**:
+
 - Price vs. quality correlation
 - Height vs. weight relationships
 - Marketing spend vs. sales relationship
@@ -265,6 +281,7 @@ The data analysis lifecycle is a structured approach to turning raw data into ac
 **Data type**: Two numeric variables plus a third for bubble size
 
 **Example use cases**:
+
 - GDP per capita vs. life expectancy with population size
 - Product features vs. price with sales volume
 - Marketing channels by cost and conversion rate
@@ -276,6 +293,7 @@ The data analysis lifecycle is a structured approach to turning raw data into ac
 **Data type**: Matrix of values in two dimensions
 
 **Example use cases**:
+
 - Website activity by hour and day of week
 - Correlation matrix between variables
 - Performance metrics across regions and products
@@ -289,6 +307,7 @@ The data analysis lifecycle is a structured approach to turning raw data into ac
 **Data type**: Categorical data as percentages of total
 
 **Example use cases**:
+
 - Market share distribution
 - Budget allocation by department
 - Traffic sources to a website
@@ -300,6 +319,7 @@ The data analysis lifecycle is a structured approach to turning raw data into ac
 **Data type**: Categorical with subcategories and values
 
 **Example use cases**:
+
 - Revenue breakdown by product and region
 - Population demographics over time
 - Survey responses across multiple questions
@@ -311,6 +331,7 @@ The data analysis lifecycle is a structured approach to turning raw data into ac
 **Data type**: Hierarchical categorical data with values
 
 **Example use cases**:
+
 - File system storage allocation
 - Product categories and subcategories by sales
 - Organizational structure with performance metrics
@@ -324,6 +345,7 @@ The data analysis lifecycle is a structured approach to turning raw data into ac
 **Data type**: Geographic data with associated values
 
 **Example use cases**:
+
 - Population density by region
 - Sales performance across territories
 - Election results by district
@@ -335,6 +357,7 @@ The data analysis lifecycle is a structured approach to turning raw data into ac
 **Data type**: Geographic coordinates with attributes
 
 **Example use cases**:
+
 - Store locations with performance data
 - Customer distribution in a region
 - Event locations with attendance figures
@@ -346,6 +369,7 @@ The data analysis lifecycle is a structured approach to turning raw data into ac
 **Data type**: Origin-destination pairs with volumes
 
 **Example use cases**:
+
 - Migration patterns between countries
 - Supply chain and logistics flows
 - Customer movement between store locations
@@ -359,6 +383,7 @@ The data analysis lifecycle is a structured approach to turning raw data into ac
 **Data type**: Node-link data with relationships
 
 **Example use cases**:
+
 - Social network analysis
 - Organization connections and hierarchies
 - Product recommendation systems
@@ -370,6 +395,7 @@ The data analysis lifecycle is a structured approach to turning raw data into ac
 **Data type**: Flow data between nodes
 
 **Example use cases**:
+
 - Website user flow analysis
 - Energy transfer diagrams
 - Budget flow between departments
@@ -381,6 +407,7 @@ The data analysis lifecycle is a structured approach to turning raw data into ac
 **Data type**: Sequential steps with decreasing values
 
 **Example use cases**:
+
 - Sales conversion funnel
 - Recruitment process stages
 - Customer journey analysis

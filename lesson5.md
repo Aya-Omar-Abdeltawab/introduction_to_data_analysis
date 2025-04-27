@@ -1,12 +1,7 @@
 # Lesson 5: Overview of Industry Tools and Technologies 🛠️💻
 
-## Overview
-**Duration**: 1 hour
-**Date**: May 24, 2025
-
----
-
 ## Learning Objectives
+
 - 🧰 Understand the range of tools and technologies used in modern data analysis
 - 🎯 Identify appropriate tools for different data analysis tasks and scenarios
 - ⚖️ Recognize the advantages and limitations of various data analysis platforms
@@ -25,6 +20,7 @@ Spreadsheets are often the entry point for data analysis, providing accessibilit
 **Microsoft Excel**
 
 **Key Features:**
+
 - Familiar grid-based interface
 - Formula-based calculations
 - Pivot tables for data summarization
@@ -34,12 +30,14 @@ Spreadsheets are often the entry point for data analysis, providing accessibilit
 - Power Pivot for data modeling
 
 **Strengths:**
+
 - Ubiquitous in business environments
 - Low barrier to entry
 - Quick for ad-hoc analysis
 - Strong integration with Microsoft ecosystem
 
 **Limitations:**
+
 - Limited to ~1 million rows
 - Performance issues with large datasets
 - Limited reproducibility and automation
@@ -48,6 +46,7 @@ Spreadsheets are often the entry point for data analysis, providing accessibilit
 **Google Sheets**
 
 **Key Features:**
+
 - Similar functionality to Excel
 - Cloud-native with real-time collaboration
 - Version history tracking
@@ -55,12 +54,14 @@ Spreadsheets are often the entry point for data analysis, providing accessibilit
 - Connected sheets for BigQuery data
 
 **Strengths:**
+
 - Excellent collaboration capabilities
 - Accessible from any device with internet
 - Easy sharing and publishing
 - Free for basic use
 
 **Limitations:**
+
 - More limited than Excel for advanced features
 - Less powerful for very large datasets
 - Requires internet connection for full functionality
@@ -74,6 +75,7 @@ Programming languages offer greater power, flexibility, and reproducibility than
 **Python**
 
 **Key Libraries:**
+
 - **Pandas**: Data manipulation and analysis
 - **NumPy**: Numerical computing
 - **Matplotlib/Seaborn**: Data visualization
@@ -82,6 +84,7 @@ Programming languages offer greater power, flexibility, and reproducibility than
 - **Jupyter**: Interactive notebooks
 
 **Strengths:**
+
 - Versatile general-purpose language
 - Extensive ecosystem of data libraries
 - Strong for machine learning applications
@@ -90,6 +93,7 @@ Programming languages offer greater power, flexibility, and reproducibility than
 - Free and open-source
 
 **Limitations:**
+
 - Steeper learning curve than spreadsheets
 - Can be slower than R for some statistical operations
 - Package dependencies can be challenging
@@ -97,6 +101,7 @@ Programming languages offer greater power, flexibility, and reproducibility than
 **R**
 
 **Key Features:**
+
 - **tidyverse**: Collection of packages for data science
 - **ggplot2**: Elegant data visualizations
 - **dplyr**: Data manipulation
@@ -105,6 +110,7 @@ Programming languages offer greater power, flexibility, and reproducibility than
 - **RStudio**: Integrated development environment
 
 **Strengths:**
+
 - Designed specifically for statistics and data analysis
 - Exceptional for statistical modeling
 - Publication-quality visualizations
@@ -112,6 +118,7 @@ Programming languages offer greater power, flexibility, and reproducibility than
 - Free and open-source
 
 **Limitations:**
+
 - Steeper learning curve than spreadsheets
 - Syntax can be inconsistent
 - Memory management issues with very large datasets
@@ -125,6 +132,7 @@ Databases provide structured storage and efficient retrieval of large volumes of
 **SQL**
 
 **Common Implementations:**
+
 - **MySQL**: Open-source, widely used
 - **PostgreSQL**: Advanced open-source option
 - **Microsoft SQL Server**: Enterprise solution
@@ -132,6 +140,7 @@ Databases provide structured storage and efficient retrieval of large volumes of
 - **Oracle**: Enterprise-grade database system
 
 **Key SQL Operations:**
+
 - SELECT: Retrieve data
 - JOIN: Combine tables
 - WHERE: Filter records
@@ -140,6 +149,7 @@ Databases provide structured storage and efficient retrieval of large volumes of
 - INSERT, UPDATE, DELETE: Modify data
 
 **Strengths:**
+
 - Industry standard for data querying
 - Designed for handling relational data
 - Optimized for large dataset operations
@@ -147,6 +157,7 @@ Databases provide structured storage and efficient retrieval of large volumes of
 - Precise data retrieval
 
 **Limitations:**
+
 - Limited statistical functionality
 - Less suitable for unstructured data
 - Requires database setup and maintenance
@@ -155,12 +166,14 @@ Databases provide structured storage and efficient retrieval of large volumes of
 **NoSQL Databases**
 
 **Types and Examples:**
+
 - **Document stores**: MongoDB, Couchbase
 - **Key-value stores**: Redis, DynamoDB
 - **Column-family stores**: Cassandra, HBase
 - **Graph databases**: Neo4j, Amazon Neptune
 
 **When to use NoSQL:**
+
 - Working with unstructured or semi-structured data
 - Need for horizontal scaling
 - Flexible schema requirements
@@ -175,6 +188,7 @@ Data visualization tools help transform complex data into intuitive visual forma
 **Tableau**
 
 **Key Features:**
+
 - Drag-and-drop interface
 - Wide range of visualization types
 - Interactive dashboards
@@ -184,12 +198,14 @@ Data visualization tools help transform complex data into intuitive visual forma
 - Tableau Public for free sharing
 
 **Strengths:**
+
 - Intuitive visual interface
 - Rapid dashboard creation
 - Excellent interactive capabilities
 - Strong community and learning resources
 
 **Limitations:**
+
 - Cost can be high for professional version
 - Limited statistical analysis capabilities
 - Less customization than programming tools
@@ -197,6 +213,7 @@ Data visualization tools help transform complex data into intuitive visual forma
 **Microsoft Power BI**
 
 **Key Features:**
+
 - Similar drag-and-drop functionality to Tableau
 - Power Query for data preparation
 - DAX language for custom calculations
@@ -205,17 +222,20 @@ Data visualization tools help transform complex data into intuitive visual forma
 - Embedded analytics options
 
 **Strengths:**
+
 - Cost-effective compared to other BI tools
 - Familiar to users of Microsoft products
 - Monthly updates with new features
 - Free Desktop version available
 
 **Limitations:**
+
 - More limited than Tableau in some visualization aspects
 - Best performance in Microsoft ecosystem
 - Some advanced features only in premium version
 
 **Other Notable Visualization Tools:**
+
 - **Looker**: Google's enterprise BI platform
 - **QuickSight**: Amazon's cloud-based BI service
 - **Grafana**: Open-source platform for time-series data
@@ -235,6 +255,7 @@ Modern data analysis increasingly relies on cloud-based tools that offer scalabi
 **Google Cloud Platform (GCP)**
 
 **Key Data Services:**
+
 - **BigQuery**: Serverless data warehouse
 - **Dataflow**: Stream and batch processing
 - **Looker**: Business intelligence
@@ -244,6 +265,7 @@ Modern data analysis increasingly relies on cloud-based tools that offer scalabi
 **Microsoft Azure**
 
 **Key Data Services:**
+
 - **Azure Synapse Analytics**: Analytics service
 - **Azure Data Lake**: Storage for big data
 - **Azure Databricks**: Apache Spark-based analytics
@@ -253,6 +275,7 @@ Modern data analysis increasingly relies on cloud-based tools that offer scalabi
 **Amazon Web Services (AWS)**
 
 **Key Data Services:**
+
 - **Redshift**: Data warehouse
 - **S3**: Object storage
 - **EMR**: Big data platform
@@ -260,6 +283,7 @@ Modern data analysis increasingly relies on cloud-based tools that offer scalabi
 - **QuickSight**: Business intelligence
 
 **Benefits of Cloud Platforms:**
+
 - Scalable resources on demand
 - No hardware to maintain
 - Pay-as-you-go pricing models
@@ -272,6 +296,7 @@ Modern data analysis increasingly relies on cloud-based tools that offer scalabi
 **Version Control Systems**
 
 **GitHub/GitLab**
+
 - Code and notebook version control
 - Collaborative review process
 - Issue tracking
@@ -281,12 +306,14 @@ Modern data analysis increasingly relies on cloud-based tools that offer scalabi
 **Notebook Environments**
 
 **Jupyter Hub**
+
 - Multi-user notebook environment
 - Shareable interactive documents
 - Supports multiple programming languages
 - Can run in cloud environments
 
 **Google Colab**
+
 - Free cloud-based notebook environment
 - GPU and TPU access
 - Easy sharing and collaboration
@@ -295,6 +322,7 @@ Modern data analysis increasingly relies on cloud-based tools that offer scalabi
 **Project Management Tools**
 
 **Jira/Trello/Asana**
+
 - Task tracking and assignment
 - Project timelines and milestones
 - Integration with data and development tools
@@ -303,6 +331,7 @@ Modern data analysis increasingly relies on cloud-based tools that offer scalabi
 **Communication Platforms**
 
 **Slack/Microsoft Teams**
+
 - Channel-based communication
 - File sharing
 - Integration with data tools and alerts
@@ -311,12 +340,14 @@ Modern data analysis increasingly relies on cloud-based tools that offer scalabi
 ### Data Sharing and Documentation
 
 **Data Catalogs**
+
 - **Alation**: Enterprise data catalog
 - **Collibra**: Data intelligence platform
 - **Microsoft Purview**: Data governance service
 - **Google Data Catalog**: Metadata management
 
 **Documentation Tools**
+
 - **Confluence**: Wiki and knowledge base
 - **Notion**: All-in-one workspace
 - **Dataedo**: Database documentation tool
@@ -329,13 +360,13 @@ Modern data analysis increasingly relies on cloud-based tools that offer scalabi
 
 ### Practical Use Cases by Tool Type
 
-| Tool Type | Beginner Use Case | Intermediate Use Case | Advanced Use Case |
-|-----------|-------------------|------------------------|-------------------|
-| **Spreadsheets** | Monthly budget tracking with basic formulas | Sales analysis with pivot tables and charts | Automated reporting with macros and Power Query |
-| **Python/R** | Data cleaning and simple visualizations | Statistical analysis and predictive modeling | Machine learning pipelines and automated workflows |
-| **SQL** | Basic queries to retrieve and filter data | Complex joins across multiple tables | Optimized queries and stored procedures for large databases |
-| **Visualization** | Standard charts and dashboards | Interactive multi-view dashboards | Custom visualizations with advanced interactivity |
-| **Cloud Tools** | Using pre-built templates and services | Custom workflows combining multiple services | Enterprise-scale data architecture design |
+| Tool Type               | Beginner Use Case                           | Intermediate Use Case                        | Advanced Use Case                                           |
+| ----------------------- | ------------------------------------------- | -------------------------------------------- | ----------------------------------------------------------- |
+| **Spreadsheets**  | Monthly budget tracking with basic formulas | Sales analysis with pivot tables and charts  | Automated reporting with macros and Power Query             |
+| **Python/R**      | Data cleaning and simple visualizations     | Statistical analysis and predictive modeling | Machine learning pipelines and automated workflows          |
+| **SQL**           | Basic queries to retrieve and filter data   | Complex joins across multiple tables         | Optimized queries and stored procedures for large databases |
+| **Visualization** | Standard charts and dashboards              | Interactive multi-view dashboards            | Custom visualizations with advanced interactivity           |
+| **Cloud Tools**   | Using pre-built templates and services      | Custom workflows combining multiple services | Enterprise-scale data architecture design                   |
 
 ### Tool Selection Framework
 
@@ -343,15 +374,16 @@ Modern data analysis increasingly relies on cloud-based tools that offer scalabi
 
 When deciding which tool to use for a data analysis task, consider these factors:
 
-| Factor | Considerations | Tool Recommendations |
-|--------|---------------|---------------------|
-| **📊 Data Volume** | • Small: Fits in memory (<100K rows)<br>• Medium: Requires optimization (100K-10M rows)<br>• Large: Distributed systems needed (>10M rows) | • **Small:** Spreadsheets, R/Python<br>• **Medium:** SQL databases, optimized Python/R<br>• **Large:** Cloud platforms, Spark, big data tools |
-| **🧮 Analysis Complexity** | • Basic: Sums, averages, filters<br>• Intermediate: Statistical tests, regressions<br>• Advanced: Machine learning, network analysis | • **Basic:** Spreadsheets, SQL<br>• **Intermediate:** R, Python, specialized statistics software<br>• **Advanced:** Python, R, specialized ML platforms |
-| **👁️ Output Requirements** | • Static reports or tables<br>• Interactive dashboards<br>• Automated systems/pipelines<br>• Embedded analytics in applications | • **Static:** Any tool with export capabilities<br>• **Interactive:** Tableau, Power BI, Shiny, Dash<br>• **Automated:** Python/R with scheduling, cloud services<br>• **Embedded:** BI platforms with API access |
-| **👥 User Expertise** | • Beginner: No programming experience<br>• Intermediate: Some technical skills<br>• Advanced: Comfortable with coding and algorithms | • **Beginner:** Spreadsheets, BI tools with GUIs<br>• **Intermediate:** SQL, basic Python/R<br>• **Advanced:** Advanced Python/R, specialized tools |
-| **🤝 Collaboration Needs** | • Solo project<br>• Small team collaboration<br>• Enterprise with multiple stakeholders<br>• Public sharing requirements | • **Solo:** Any tool<br>• **Small team:** Cloud tools, version control<br>• **Enterprise:** Platforms with access control<br>• **Public:** Tools with sharing capabilities |
+| Factor                             | Considerations                                                                                                                                        | Tool Recommendations                                                                                                                                                                                                                                     |
+| ---------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **📊 Data Volume**           | • Small: Fits in memory (<100K rows)`<br>`• Medium: Requires optimization (100K-10M rows)`<br>`• Large: Distributed systems needed (>10M rows) | •**Small:** Spreadsheets, R/Python`<br>`• **Medium:** SQL databases, optimized Python/R`<br>`• **Large:** Cloud platforms, Spark, big data tools                                                                                |
+| **🧮 Analysis Complexity**   | • Basic: Sums, averages, filters`<br>`• Intermediate: Statistical tests, regressions`<br>`• Advanced: Machine learning, network analysis       | •**Basic:** Spreadsheets, SQL`<br>`• **Intermediate:** R, Python, specialized statistics software`<br>`• **Advanced:** Python, R, specialized ML platforms                                                                      |
+| **👁️ Output Requirements** | • Static reports or tables`<br>`• Interactive dashboards`<br>`• Automated systems/pipelines`<br>`• Embedded analytics in applications       | •**Static:** Any tool with export capabilities`<br>`• **Interactive:** Tableau, Power BI, Shiny, Dash`<br>`• **Automated:** Python/R with scheduling, cloud services`<br>`• **Embedded:** BI platforms with API access |
+| **👥 User Expertise**        | • Beginner: No programming experience`<br>`• Intermediate: Some technical skills`<br>`• Advanced: Comfortable with coding and algorithms       | •**Beginner:** Spreadsheets, BI tools with GUIs`<br>`• **Intermediate:** SQL, basic Python/R`<br>`• **Advanced:** Advanced Python/R, specialized tools                                                                          |
+| **🤝 Collaboration Needs**   | • Solo project`<br>`• Small team collaboration`<br>`• Enterprise with multiple stakeholders`<br>`• Public sharing requirements              | •**Solo:** Any tool`<br>`• **Small team:** Cloud tools, version control`<br>`• **Enterprise:** Platforms with access control`<br>`• **Public:** Tools with sharing capabilities                                        |
 
 #### ✅ When to use Spreadsheets
+
 - Quick ad-hoc analysis needed
 - Small to medium datasets
 - Non-technical audience
@@ -359,6 +391,7 @@ When deciding which tool to use for a data analysis task, consider these factors
 - One-time or infrequent analysis
 
 #### ✅ When to use Python/R
+
 - Reproducible analysis required
 - Complex statistical methods needed
 - Automation is important
@@ -366,6 +399,7 @@ When deciding which tool to use for a data analysis task, consider these factors
 - Machine learning applications
 
 #### ✅ When to use SQL/Databases
+
 - Working with relational data
 - Large structured datasets
 - Multi-user access needed
@@ -373,6 +407,7 @@ When deciding which tool to use for a data analysis task, consider these factors
 - Combining data from multiple sources
 
 #### ✅ When to use BI Tools
+
 - Interactive dashboards needed
 - Visualizations for non-technical users
 - Regular reporting requirements
@@ -403,6 +438,7 @@ In an Excel demonstration, you would see a spreadsheet with data arranged in row
 ![Excel Interface](image/lesson5/excel_interface.png)
 
 **Key Excel shortcuts and techniques:**
+
 - CTRL+T to create formatted tables
 - ALT+= to quickly sum a range
 - CTRL+SHIFT+↓ to select data to the last row
@@ -459,6 +495,7 @@ print(top_products.head(5))
 ![Python Jupyter Interface](image/lesson5/python_interface.png)
 
 **Key Python data analysis concepts:**
+
 - DataFrames as the primary data structure
 - Method chaining for efficient operations
 - Vectorized operations instead of loops
@@ -499,8 +536,6 @@ GROUP BY region
 ORDER BY total_revenue DESC;
 ```
 
-![SQL Interface](image/lesson5/sql_interface.png)
-
 ### Visualization with Tableau/Power BI
 
 **What you would see in a live demo:**
@@ -515,13 +550,12 @@ In a visualization tool demonstration, you would see the instructor using a drag
 6. **Publishing**: Sharing the finished dashboard
 
 **Example dashboard elements:**
+
 - Sales trend line chart by month
 - Regional sales map
 - Product category breakdown
 - KPI cards showing summary metrics
 - Interactive filters for time period and product
-
-![Visualization Tool Interface](image/lesson5/visualization_interface.png)
 
 ---
 
@@ -536,6 +570,7 @@ During this activity, the instructor will provide a live demonstration of Excel 
 #### Analysis Setup
 
 **Dataset:**
+
 - Retail sales data containing transaction records with:
   - Date
   - Store location
@@ -547,6 +582,7 @@ During this activity, the instructor will provide a live demonstration of Excel 
 **Analysis Goal:** Identify sales trends by product category and region, and determine which factors most influence sales performance.
 
 #### 📊 Excel Demonstration (15 minutes)
+
 1. Data import and organization
 2. Creating a pivot table to summarize sales by category and region
 3. Adding calculated fields for average transaction value
@@ -557,6 +593,7 @@ During this activity, the instructor will provide a live demonstration of Excel 
 ![Excel Demo](image/lesson5/excel_demo.png)
 
 #### 🐍 Python Demonstration (15 minutes)
+
 1. Loading data with pandas
 2. Data cleaning and preparation
 3. Exploratory analysis with groupby operations
@@ -567,6 +604,7 @@ During this activity, the instructor will provide a live demonstration of Excel 
 ![Python Demo](image/lesson5/python_demo.png)
 
 **Key Comparison Points:**
+
 - Ease of use for different operations
 - Time required for similar tasks
 - Flexibility and customization options
@@ -592,6 +630,7 @@ After the demonstrations, students will discuss:
 #### Reflection Prompt
 
 For your current or planned data projects, which tool would be most appropriate? Consider:
+
 - Project requirements
 - Audience needs
 - Your current skills
@@ -607,18 +646,16 @@ For your current or planned data projects, which tool would be most appropriate?
 #### 📋 Instructions:
 
 1. Choose **one tool from each category** discussed today:
+
    - Spreadsheet tool (Excel, Google Sheets, etc.)
    - Programming language/environment (Python, R, etc.)
    - Database/SQL platform (MySQL, PostgreSQL, SQLite, etc.)
-   - Visualization tool (Tableau, Power BI, etc.)
-
 2. For each chosen tool:
+
    - Find and review at least one tutorial or getting started guide
    - List 3-5 key features that would be useful for data analysis
    - Identify what types of analysis tasks it seems best suited for
-
 3. If possible, download and install one of the free tools mentioned and complete a simple "Hello World" equivalent task (e.g., import data, create a basic chart)
-
 4. Write a brief reflection (1 paragraph) on which tool you found most interesting and why
 
 ### Submission Format
@@ -678,24 +715,28 @@ Screenshot: [If applicable]
 ### Learning Resources by Tool Category
 
 #### 📊 Excel and Spreadsheets
+
 - [Microsoft Excel Tutorial](https://support.microsoft.com/en-us/excel)
 - [Excel for Data Analysis (Coursera)](https://www.coursera.org/learn/excel-data-analysis)
 - [Google Sheets Training and Help](https://support.google.com/a/users/answer/9282959)
 - [ExcelJet Formula Database](https://exceljet.net/formulas)
 
 #### 🐍 Python
+
 - [Python for Data Science Handbook](https://jakevdp.github.io/PythonDataScienceHandbook/)
 - [Codecademy Python Course](https://www.codecademy.com/learn/learn-python-3)
 - [DataCamp Python for Data Science](https://www.datacamp.com/tracks/python-programmer)
 - [Pandas 10-Minute Tutorial](https://pandas.pydata.org/docs/user_guide/10min.html)
 
 #### 🗄️ SQL
+
 - [W3Schools SQL Tutorial](https://www.w3schools.com/sql/)
 - [Mode SQL Tutorial](https://mode.com/sql-tutorial/)
 - [SQL for Data Analysis (Udacity)](https://www.udacity.com/course/sql-for-data-analysis--ud198)
 - [SQLBolt Interactive Lessons](https://sqlbolt.com/)
 
 #### 📈 Visualization Tools
+
 - [Tableau Public](https://public.tableau.com/)
 - [Microsoft Power BI Learning](https://powerbi.microsoft.com/en-us/learning/)
 - [Data Visualization Society](https://www.datavisualizationsociety.com/resources)
@@ -703,14 +744,15 @@ Screenshot: [If applicable]
 
 ### Free Tool Options
 
-| Category | Free Options | Best For |
-|----------|-------------|----------|
-| **Spreadsheets** | • Google Sheets<br>• LibreOffice Calc<br>• Microsoft Excel Online | Quick analyses, simple visualizations, collaborative editing, data organization |
-| **Programming** | • Python with Anaconda distribution<br>• R with RStudio Desktop<br>• Google Colab<br>• Jupyter Notebooks | Advanced analytics, automation, custom visualizations, reproducible research |
-| **Databases** | • SQLite<br>• MySQL Community Edition<br>• PostgreSQL<br>• DuckDB | Structured data storage, multi-table relationships, data integrity, multi-user access |
-| **Visualization** | • Tableau Public<br>• Power BI Desktop<br>• Google Data Studio<br>• Flourish | Interactive dashboards, shareable visualizations, data storytelling |
+| Category                | Free Options                                                                                                             | Best For                                                                              |
+| ----------------------- | ------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------- |
+| **Spreadsheets**  | • Google Sheets`<br>`• LibreOffice Calc`<br>`• Microsoft Excel Online                                             | Quick analyses, simple visualizations, collaborative editing, data organization       |
+| **Programming**   | • Python with Anaconda distribution`<br>`• R with RStudio Desktop`<br>`• Google Colab`<br>`• Jupyter Notebooks | Advanced analytics, automation, custom visualizations, reproducible research          |
+| **Databases**     | • SQLite`<br>`• MySQL Community Edition`<br>`• PostgreSQL`<br>`• DuckDB                                        | Structured data storage, multi-table relationships, data integrity, multi-user access |
+| **Visualization** | • Tableau Public`<br>`• Power BI Desktop`<br>`• Google Data Studio`<br>`• Flourish                             | Interactive dashboards, shareable visualizations, data storytelling                   |
 
 #### 🔗 Course Resource Repository
+
 Access example datasets, additional tutorials, and reference materials at:
 
 [Course GitHub Repository](https://github.com/datalearning/resources)

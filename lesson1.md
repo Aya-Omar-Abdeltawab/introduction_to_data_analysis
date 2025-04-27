@@ -1,13 +1,5 @@
 # 📊 Lesson 1: What is Data Analysis? 🔍
 
-## Overview
-
-**Duration**: 1 hour
-**Date**: April 26, 2025
-![Status](https://img.shields.io/badge/Status-Active-brightgreen) ![Level](https://img.shields.io/badge/Level-Beginner-blue)
-
----
-
 ## 🎯 Learning Objectives
 
 - Understand the fundamental definition of data analysis
