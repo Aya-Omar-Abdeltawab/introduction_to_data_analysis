@@ -331,34 +331,34 @@ Secondary data is collected by someone else for a different primary purpose.
 
 ```mermaid
 flowchart TD
-    A[Raw Data] --> B{Qualitative or\nQuantitative?}
+    A[Raw Data] --> B{Qualitative or Quantitative?}
 
     B -->|Qualitative| C{Type?}
     B -->|Quantitative| D{Type?}
 
-    C -->|Nominal| E[Categories with\nno inherent order]
-    C -->|Ordinal| F[Categories with\nmeaningful rank]
+    C -->|Nominal| E[Categories with no inherent order]
+    C -->|Ordinal| F[Categories with meaningful rank]
 
-    D -->|Discrete| G[Countable,\nwhole values]
-    D -->|Continuous| H[Measurable,\nany value in range]
+    D -->|Discrete| G[Countable, whole values]
+    D -->|Continuous| H[Measurable, any value in range]
 
     E --> I{Structure?}
     F --> I
     G --> I
     H --> I
 
-    I -->|Structured| J[Organized in\npredefined format]
-    I -->|Unstructured| K[No predefined\norganization]
-    I -->|Semi-structured| L[Some organization,\nflexible format]
+    I -->|Structured| J[Organized in predefined format]
+    I -->|Unstructured| K[No predefined organization]
+    I -->|Semi-structured| L[Some organization, flexible format]
 
     J --> M{Source?}
     K --> M
     L --> M
 
-    M -->|Primary| N[Collected directly\nfor specific purpose]
-    M -->|Secondary| O[Collected by others\nfor different purpose]
+    M -->|Primary| N[Collected directly for specific purpose]
+    M -->|Secondary| O[Collected by others for different purpose]
 
-    N --> P[Data Ready\nfor Analysis]
+    N --> P[Data Ready for Analysis]
     O --> P
 ```
 
