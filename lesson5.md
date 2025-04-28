@@ -3,7 +3,7 @@
 ## Overview
 
 **Duration**: 1 hour
-**Date**: May 24, 2025
+**Date**: May 18, 2025
 ![Status](https://img.shields.io/badge/Status-Active-brightgreen) ![Level](https://img.shields.io/badge/Level-Beginner-blue)
 
 ---
