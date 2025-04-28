@@ -1,9 +1,16 @@
-# 🏁 Lesson 6: Wrap-up and Q&A ❓
+# 📊 Lesson 6: Practical Data Analysis Project
 
+## Overview
+
+**Duration**: 1 hour
+**Date**: May 31, 2025
+![Status](https://img.shields.io/badge/Status-Active-brightgreen) ![Level](https://img.shields.io/badge/Level-Beginner-blue)
+
+---
 
 ## 🎯 Learning Objectives
 
-- 📚 Consolidate key concepts covered throughout Module 1
+- 📚 Consolidate key concepts covered throughout the course
 - 🤔 Identify and address common misconceptions about data analysis
 - 🌱 Develop personalized learning objectives for continued growth
 - 🗣️ Clarify any remaining questions about data analysis fundamentals
@@ -317,6 +324,6 @@ Next module: **Data Cleaning and Preparation Techniques**.
 
 ---
 
-*Next Module: Data Cleaning and Preparation Techniques* 🧹
+*Course Complete* 🎓
 
-**🏁 Module 1 Complete - 6 of 6 🏁**
+**✓ Lesson 6 Complete - 6 of 6 ✓**

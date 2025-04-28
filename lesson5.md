@@ -1,6 +1,14 @@
-# Lesson 5: Overview of Industry Tools and Technologies 🛠️💻
+# 📊 Lesson 5: Overview of Industry Tools and Technologies
 
-## Learning Objectives
+## Overview
+
+**Duration**: 1 hour
+**Date**: May 24, 2025
+![Status](https://img.shields.io/badge/Status-Active-brightgreen) ![Level](https://img.shields.io/badge/Level-Beginner-blue)
+
+---
+
+## 🎯 Learning Objectives
 
 - 🧰 Understand the range of tools and technologies used in modern data analysis
 - 🎯 Identify appropriate tools for different data analysis tasks and scenarios
@@ -9,7 +17,7 @@
 
 ---
 
-## 1. Common Tools in Data Analysis
+## 1. 🛠️ Common Tools in Data Analysis
 
 Data analysis tools range from accessible everyday applications to specialized professional software. The right tool depends on the complexity of your data, your technical expertise, and your specific analytical needs.
 
@@ -246,7 +254,7 @@ Data visualization tools help transform complex data into intuitive visual forma
 
 ---
 
-## 2. Cloud Tools and Collaboration Platforms
+## 2. ☁️ Cloud Tools and Collaboration Platforms
 
 Modern data analysis increasingly relies on cloud-based tools that offer scalability, accessibility, and collaboration features beyond traditional desktop applications.
 
@@ -356,7 +364,7 @@ Modern data analysis increasingly relies on cloud-based tools that offer scalabi
 
 ---
 
-## 3. Brief Overview of Tool Usage
+## 3. 📊 Brief Overview of Tool Usage
 
 ### Practical Use Cases by Tool Type
 
@@ -376,11 +384,11 @@ When deciding which tool to use for a data analysis task, consider these factors
 
 | Factor                             | Considerations                                                                                                                                        | Tool Recommendations                                                                                                                                                                                                                                     |
 | ---------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **📊 Data Volume**           | • Small: Fits in memory (<100K rows)`<br>`• Medium: Requires optimization (100K-10M rows)`<br>`• Large: Distributed systems needed (>10M rows) | •**Small:** Spreadsheets, R/Python`<br>`• **Medium:** SQL databases, optimized Python/R`<br>`• **Large:** Cloud platforms, Spark, big data tools                                                                                |
-| **🧮 Analysis Complexity**   | • Basic: Sums, averages, filters`<br>`• Intermediate: Statistical tests, regressions`<br>`• Advanced: Machine learning, network analysis       | •**Basic:** Spreadsheets, SQL`<br>`• **Intermediate:** R, Python, specialized statistics software`<br>`• **Advanced:** Python, R, specialized ML platforms                                                                      |
-| **👁️ Output Requirements** | • Static reports or tables`<br>`• Interactive dashboards`<br>`• Automated systems/pipelines`<br>`• Embedded analytics in applications       | •**Static:** Any tool with export capabilities`<br>`• **Interactive:** Tableau, Power BI, Shiny, Dash`<br>`• **Automated:** Python/R with scheduling, cloud services`<br>`• **Embedded:** BI platforms with API access |
-| **👥 User Expertise**        | • Beginner: No programming experience`<br>`• Intermediate: Some technical skills`<br>`• Advanced: Comfortable with coding and algorithms       | •**Beginner:** Spreadsheets, BI tools with GUIs`<br>`• **Intermediate:** SQL, basic Python/R`<br>`• **Advanced:** Advanced Python/R, specialized tools                                                                          |
-| **🤝 Collaboration Needs**   | • Solo project`<br>`• Small team collaboration`<br>`• Enterprise with multiple stakeholders`<br>`• Public sharing requirements              | •**Solo:** Any tool`<br>`• **Small team:** Cloud tools, version control`<br>`• **Enterprise:** Platforms with access control`<br>`• **Public:** Tools with sharing capabilities                                        |
+| **📊 Data Volume**           | • Small: Fits in memory (<100K rows) <br> • Medium: Requires optimization (100K-10M rows) <br> • Large: Distributed systems needed (>10M rows) | •**Small:** Spreadsheets, R/Python <br> • **Medium:** SQL databases, optimized Python/R <br> • **Large:** Cloud platforms, Spark, big data tools                                                                                |
+| **🧮 Analysis Complexity**   | • Basic: Sums, averages, filters <br> • Intermediate: Statistical tests, regressions <br> • Advanced: Machine learning, network analysis       | •**Basic:** Spreadsheets, SQL <br> • **Intermediate:** R, Python, specialized statistics software <br> • **Advanced:** Python, R, specialized ML platforms                                                                      |
+| **👁️ Output Requirements** | • Static reports or tables <br> • Interactive dashboards <br> • Automated systems/pipelines <br> • Embedded analytics in applications       | •**Static:** Any tool with export capabilities <br> • **Interactive:** Tableau, Power BI, Shiny, Dash <br> • **Automated:** Python/R with scheduling, cloud services <br> • **Embedded:** BI platforms with API access |
+| **👥 User Expertise**        | • Beginner: No programming experience <br> • Intermediate: Some technical skills <br> • Advanced: Comfortable with coding and algorithms       | •**Beginner:** Spreadsheets, BI tools with GUIs <br> • **Intermediate:** SQL, basic Python/R <br> • **Advanced:** Advanced Python/R, specialized tools                                                                          |
+| **🤝 Collaboration Needs**   | • Solo project <br> • Small team collaboration <br> • Enterprise with multiple stakeholders <br> • Public sharing requirements              | •**Solo:** Any tool <br> • **Small team:** Cloud tools, version control <br> • **Enterprise:** Platforms with access control <br> • **Public:** Tools with sharing capabilities                                        |
 
 #### ✅ When to use Spreadsheets
 
@@ -418,7 +426,7 @@ When deciding which tool to use for a data analysis task, consider these factors
 
 ---
 
-## 4. Tool Demo: How Data Analysis Tools Look and Function
+## 4. 🖥️ Tool Demo: How Data Analysis Tools Look and Function
 
 ### Spreadsheet Analysis (Microsoft Excel)
 
@@ -559,9 +567,7 @@ In a visualization tool demonstration, you would see the instructor using a drag
 
 ---
 
-## Activity: Tool Demonstration 🛠️👨‍🏫
-
-**Hands-on Learning:** In this activity, you'll see how different tools approach the same data analysis problem, helping you understand their relative strengths and workflows.
+## 📝 Activity: Tool Demonstration
 
 ### Instructor-Led Tool Comparison (30 minutes)
 
@@ -590,7 +596,6 @@ During this activity, the instructor will provide a live demonstration of Excel 
 5. Using filtering to focus on specific time periods
 6. Exporting results for sharing
 
-![Excel Demo](image/lesson5/excel_demo.png)
 
 #### 🐍 Python Demonstration (15 minutes)
 
@@ -601,7 +606,6 @@ During this activity, the instructor will provide a live demonstration of Excel 
 5. Creating visualizations with matplotlib and seaborn
 6. Exporting results to various formats
 
-![Python Demo](image/lesson5/python_demo.png)
 
 **Key Comparison Points:**
 
@@ -612,32 +616,58 @@ During this activity, the instructor will provide a live demonstration of Excel 
 - Handling of larger data volumes
 - Documentation capabilities
 
-### Student Discussion (15 minutes) 🗣️💭
+---
 
-After the demonstrations, students will discuss:
+## 📚 Additional Resources
 
-#### Discussion Questions:
+### Learning Resources by Tool Category
 
-1. What were the advantages and disadvantages of each approach?
-2. Which tool seemed more appropriate for different aspects of the analysis?
-3. How might your choice of tool change depending on:
-   - Dataset size
-   - Analysis complexity
-   - Audience for your results
-   - Collaboration requirements
-4. What questions do you have about the tools demonstrated or others mentioned in the lesson?
+#### 📊 Excel and Spreadsheets
 
-#### Reflection Prompt
+- [Microsoft Excel Tutorial](https://support.microsoft.com/en-us/excel)
+- [Excel for Data Analysis (Coursera)](https://www.coursera.org/learn/excel-data-analysis)
+- [Google Sheets Training and Help](https://support.google.com/a/users/answer/9282959)
+- [ExcelJet Formula Database](https://exceljet.net/formulas)
 
-For your current or planned data projects, which tool would be most appropriate? Consider:
+#### 🐍 Python
 
-- Project requirements
-- Audience needs
-- Your current skills
+- [Python for Data Science Handbook](https://jakevdp.github.io/PythonDataScienceHandbook/)
+- [Codecademy Python Course](https://www.codecademy.com/learn/learn-python-3)
+- [DataCamp Python for Data Science](https://www.datacamp.com/tracks/python-programmer)
+- [Pandas 10-Minute Tutorial](https://pandas.pydata.org/docs/user_guide/10min.html)
+
+#### 🗄️ SQL
+
+- [W3Schools SQL Tutorial](https://www.w3schools.com/sql/)
+- [Mode SQL Tutorial](https://mode.com/sql-tutorial/)
+- [SQL for Data Analysis (Udacity)](https://www.udacity.com/course/sql-for-data-analysis--ud198)
+- [SQLBolt Interactive Lessons](https://sqlbolt.com/)
+
+#### 📈 Visualization Tools
+
+- [Tableau Public](https://public.tableau.com/)
+- [Microsoft Power BI Learning](https://powerbi.microsoft.com/en-us/learning/)
+- [Data Visualization Society](https://www.datavisualizationsociety.com/resources)
+- [D3.js Examples Gallery](https://d3js.org/examples)
+
+### Free Tool Options
+
+| Category                | Free Options                                                                                                             | Best For                                                                              |
+| ----------------------- | ------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------- |
+| **Spreadsheets**  | • Google Sheets <br> • LibreOffice Calc <br> • Microsoft Excel Online                                             | Quick analyses, simple visualizations, collaborative editing, data organization       |
+| **Programming**   | • Python with Anaconda distribution <br> • R with RStudio Desktop <br> • Google Colab <br> • Jupyter Notebooks | Advanced analytics, automation, custom visualizations, reproducible research          |
+| **Databases**     | • SQLite <br> • MySQL Community Edition <br> • PostgreSQL <br> • DuckDB                                        | Structured data storage, multi-table relationships, data integrity, multi-user access |
+| **Visualization** | • Tableau Public <br> • Power BI Desktop <br> • Google Data Studio <br> • Flourish                             | Interactive dashboards, shareable visualizations, data storytelling                   |
+
+#### 🔗 Course Resource Repository
+
+Access example datasets, additional tutorials, and reference materials at:
+
+[Course GitHub Repository](https://github.com/datalearning/resources)
 
 ---
 
-## Homework Assignment 📝
+## 📋 Homework Assignment
 
 **Due:** Before the next class session
 
@@ -710,53 +740,6 @@ Screenshot: [If applicable]
 
 ---
 
-## Additional Resources 📚
+*Next Lesson: Practical Data Analysis Project* ⏭️
 
-### Learning Resources by Tool Category
-
-#### 📊 Excel and Spreadsheets
-
-- [Microsoft Excel Tutorial](https://support.microsoft.com/en-us/excel)
-- [Excel for Data Analysis (Coursera)](https://www.coursera.org/learn/excel-data-analysis)
-- [Google Sheets Training and Help](https://support.google.com/a/users/answer/9282959)
-- [ExcelJet Formula Database](https://exceljet.net/formulas)
-
-#### 🐍 Python
-
-- [Python for Data Science Handbook](https://jakevdp.github.io/PythonDataScienceHandbook/)
-- [Codecademy Python Course](https://www.codecademy.com/learn/learn-python-3)
-- [DataCamp Python for Data Science](https://www.datacamp.com/tracks/python-programmer)
-- [Pandas 10-Minute Tutorial](https://pandas.pydata.org/docs/user_guide/10min.html)
-
-#### 🗄️ SQL
-
-- [W3Schools SQL Tutorial](https://www.w3schools.com/sql/)
-- [Mode SQL Tutorial](https://mode.com/sql-tutorial/)
-- [SQL for Data Analysis (Udacity)](https://www.udacity.com/course/sql-for-data-analysis--ud198)
-- [SQLBolt Interactive Lessons](https://sqlbolt.com/)
-
-#### 📈 Visualization Tools
-
-- [Tableau Public](https://public.tableau.com/)
-- [Microsoft Power BI Learning](https://powerbi.microsoft.com/en-us/learning/)
-- [Data Visualization Society](https://www.datavisualizationsociety.com/resources)
-- [D3.js Examples Gallery](https://d3js.org/examples)
-
-### Free Tool Options
-
-| Category                | Free Options                                                                                                             | Best For                                                                              |
-| ----------------------- | ------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------- |
-| **Spreadsheets**  | • Google Sheets`<br>`• LibreOffice Calc`<br>`• Microsoft Excel Online                                             | Quick analyses, simple visualizations, collaborative editing, data organization       |
-| **Programming**   | • Python with Anaconda distribution`<br>`• R with RStudio Desktop`<br>`• Google Colab`<br>`• Jupyter Notebooks | Advanced analytics, automation, custom visualizations, reproducible research          |
-| **Databases**     | • SQLite`<br>`• MySQL Community Edition`<br>`• PostgreSQL`<br>`• DuckDB                                        | Structured data storage, multi-table relationships, data integrity, multi-user access |
-| **Visualization** | • Tableau Public`<br>`• Power BI Desktop`<br>`• Google Data Studio`<br>`• Flourish                             | Interactive dashboards, shareable visualizations, data storytelling                   |
-
-#### 🔗 Course Resource Repository
-
-Access example datasets, additional tutorials, and reference materials at:
-
-[Course GitHub Repository](https://github.com/datalearning/resources)
-
----
-
-*Next Lesson: Introduction to Data Cleaning and Preparation* ⏭️
+**✓ Lesson 5 Complete - 5 of 6 ✓**

@@ -1,4 +1,12 @@
-# 📊 Lesson 1: What is Data Analysis? 🔍
+# 📊 Lesson 1: What is Data Analysis?
+
+## Overview
+
+**Duration**: 1 hour
+**Date**: April 26, 2025
+![Status](https://img.shields.io/badge/Status-Active-brightgreen) ![Level](https://img.shields.io/badge/Level-Beginner-blue)
+
+---
 
 ## 🎯 Learning Objectives
 
@@ -24,8 +32,6 @@ Data analysis is the process of inspecting, cleansing, transforming, and modelin
 | **⚙️ Data Processing**   | Transforming raw data into a usable format                    |
 | **💡 Data Interpretation** | Drawing meaningful conclusions from patterns                  |
 | **📈 Data Visualization**  | Presenting findings in an understandable format               |
-
-![Data Analysis Process](image/lesson1/data_analysis_process.png)
 
 ---
 
@@ -254,20 +260,14 @@ Each group will share their most interesting findings with the class.
 
 - Consider what data would be needed, how it would be collected, and what insights it might reveal
 
-**📅 Due date:** May 3, 2025 (before next class)
-**📝 Submission format:** PDF or Word document via the course portal
 
 ### 💪 Challenge Exercise (Optional)
 
 Find a public dataset that interests you on [data.gov](https://data.gov) or [Kaggle](https://kaggle.com/datasets). Write three questions that could be answered with this data and explain why these questions would be valuable to investigate.
 
 **Tip:** Look for datasets related to your field of interest or a current social issue you care about. This will make the exercise more engaging and relevant to your goals.
-
 ---
 
-**🗓️ Today:** April 26, 2025
-
-*Next Lesson: Data Collection and Preparation Techniques*
-*Date: May 3, 2025*
+*Next Lesson: Data Collection and Preparation Techniques* ⏭️
 
 **✓ Lesson 1 Complete - 1 of 6 ✓**

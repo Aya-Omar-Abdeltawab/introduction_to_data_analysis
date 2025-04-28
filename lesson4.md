@@ -1,6 +1,14 @@
-# Lesson 4: Roles and Responsibilities of a Data Analyst 👨‍💻👩‍💻
+# 📊 Lesson 4: Roles and Responsibilities of a Data Analyst
 
-## Learning Objectives
+## Overview
+
+**Duration**: 1 hour
+**Date**: May 17, 2025
+![Status](https://img.shields.io/badge/Status-Active-brightgreen) ![Level](https://img.shields.io/badge/Level-Beginner-blue)
+
+---
+
+## 🎯 Learning Objectives
 
 - 🎯 Understand the core responsibilities of a data analyst
 - 🔧 Identify key technical and soft skills required for success
@@ -9,7 +17,7 @@
 
 ---
 
-## 1. The Data Analyst Role: Definition and Scope 🔍
+## 1. 👨‍💻 The Data Analyst Role: Definition and Scope
 
 > **Definition:** A data analyst collects, processes, and performs statistical analyses on large datasets. They discover how data can be used to answer questions and solve problems, transforming raw data into meaningful insights for decision-making.
 
@@ -57,7 +65,7 @@
 
 ---
 
-## 2. Essential Skills for Data Analysts 🛠️
+## 2. 🛠️ Essential Skills for Data Analysts
 
 ### Technical Skills vs. Soft Skills
 
@@ -227,7 +235,7 @@ Understanding the business context is essential for asking relevant questions an
 
 ---
 
-## 3. Data Analysts vs. Related Roles 🔄
+## 3. 🔄 Data Analysts vs. Related Roles
 
 Understanding how data analysts relate to other data professionals helps clarify career paths and collaboration opportunities.
 
@@ -265,7 +273,7 @@ Understanding how data analysts relate to other data professionals helps clarify
 
 ---
 
-## 4. Career Paths and Growth Opportunities 🚀
+## 4. 🚀 Career Paths and Growth Opportunities
 
 The field of data analysis offers diverse career paths based on your interests, strengths, and goals.
 
@@ -278,10 +286,10 @@ The field of data analysis offers diverse career paths based on your interests, 
 
 | Position                         | Key Responsibilities                                                                                                                        | Typical Requirements                                                                                                                                   |
 | -------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| **Junior Data Analyst**    | • Running regular reports`<br>`• Data cleaning and preparation`<br>`• Basic data visualization`<br>`• Supporting senior analysts  | • Bachelor's degree (often)`<br>`• Basic SQL and Excel skills`<br>`• Understanding of data concepts`<br>`• Attention to detail               |
-| **Data Analyst**           | • Independent analysis projects`<br>`• Creating dashboards`<br>`• Stakeholder presentations`<br>`• Data quality improvement       | • 2+ years experience`<br>`• Advanced SQL`<br>`• Basic programming`<br>`• Statistical knowledge`<br>`• BI tool proficiency                |
-| **Senior Data Analyst**    | • Complex analysis projects`<br>`• Mentoring junior analysts`<br>`• Setting analysis standards`<br>`• Cross-functional leadership | • 5+ years experience`<br>`• Expert SQL and programming`<br>`• Advanced statistics`<br>`• Deep domain knowledge`<br>`• Project management |
-| **Analytics Manager/Lead** | • Team management`<br>`• Strategic planning`<br>`• Budget responsibility`<br>`• Analytics roadmap development                     | • 8+ years experience`<br>`• Leadership experience`<br>`• Strategic thinking`<br>`• Business partnership`<br>`• Technical background      |
+| **Junior Data Analyst**    | • Running regular reports <br>• Data cleaning and preparation <br>• Basic data visualization <br>• Supporting senior analysts  | • Bachelor's degree (often) <br>• Basic SQL and Excel skills <br>• Understanding of data concepts <br>• Attention to detail               |
+| **Data Analyst**           | • Independent analysis projects <br>• Creating dashboards <br>• Stakeholder presentations <br>• Data quality improvement       | • 2+ years experience <br>• Advanced SQL <br>• Basic programming <br>• Statistical knowledge <br>• BI tool proficiency                |
+| **Senior Data Analyst**    | • Complex analysis projects <br>• Mentoring junior analysts <br>• Setting analysis standards <br>• Cross-functional leadership | • 5+ years experience <br>• Expert SQL and programming <br>• Advanced statistics <br>• Deep domain knowledge <br>• Project management |
+| **Analytics Manager/Lead** | • Team management <br>• Strategic planning <br>• Budget responsibility <br>• Analytics roadmap development                     | • 8+ years experience <br>• Leadership experience <br>• Strategic thinking <br>• Business partnership <br>• Technical background      |
 
 ### Specialized Career Paths
 
@@ -346,7 +354,7 @@ Specialized in analyzing clinical outcomes and healthcare operations
 
 ---
 
-## Activity: Role Simulation 🎭
+## 📝 Activity: Role Simulation
 
 ### Group Exercise: Data Analysis Scenarios (30 minutes)
 
@@ -408,7 +416,7 @@ After presentations, we'll discuss:
 
 ---
 
-## Additional Resources 📚
+## 📚 Additional Resources
 
 ### Recommended Reading:
 
@@ -431,7 +439,7 @@ After presentations, we'll discuss:
 
 ---
 
-## Homework 📝
+## 📋 Homework
 
 **Assignment:** Due before next class session
 
@@ -449,3 +457,5 @@ After presentations, we'll discuss:
 ---
 
 *Next Lesson: Overview of Industry Tools and Technologies* ⏭️
+
+**✓ Lesson 4 Complete - 4 of 6 ✓**

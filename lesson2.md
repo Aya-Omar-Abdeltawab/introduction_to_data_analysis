@@ -1,4 +1,12 @@
-# 📊 Lesson 2: Types of Data and Data Collection 🔍
+# 📊 Lesson 2: Data Collection and Preparation Techniques
+
+## Overview
+
+**Duration**: 1 hour
+**Date**: May 3, 2025
+![Status](https://img.shields.io/badge/Status-Active-brightgreen) ![Level](https://img.shields.io/badge/Level-Beginner-blue)
+
+---
 
 ## 🎯 Learning Objectives
 
@@ -436,9 +444,6 @@ flowchart TD
 - The structure (structured, semi-structured, or unstructured)
 - Any potential ethical considerations when using this data
 
-**📅 Due date:** May 10, 2025 (before next class)
-**📝 Submission format:** PDF or Word document via the course portal
-
 ### 💪 Challenge Exercise (Optional)
 
 Select a business or organization you're familiar with and create a data inventory. List 5-10 types of data they likely collect, and classify each according to the categories we've discussed today. For each data type, briefly note any ethical or privacy considerations that should be addressed.
@@ -447,9 +452,6 @@ Select a business or organization you're familiar with and create a data invento
 
 ---
 
-**🗓️ Today:** May 3, 2025
-
-*Next Lesson: The Data Analysis Lifecycle*
-*Date: May 10, 2025*
+*Next Lesson: The Data Analysis Lifecycle* ⏭️
 
 **✓ Lesson 2 Complete - 2 of 6 ✓**

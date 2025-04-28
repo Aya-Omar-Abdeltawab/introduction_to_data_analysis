@@ -11,19 +11,29 @@ A comprehensive 6-lesson course covering the fundamentals of data analysis, from
    - Exploring real-world applications
 2. **Lesson 2:** Data Collection and Preparation Techniques
 
-   - (Further details to come)
-3. **Lesson 3:** Data Visualization and Exploration
+   - Learning the essential methods for gathering data
+   - Understanding data cleaning and transformation processes
+   - Ensuring data quality for analysis
+3. **Lesson 3:** The Data Analysis Lifecycle
 
-   - (Further details to come)
-4. **Lesson 4:** Statistical Analysis Fundamentals
+   - Understanding the complete lifecycle of a data analysis project
+   - Identifying key stages from data collection through communication
+   - Learning best practices for data visualization techniques
+4. **Lesson 4:** Roles and Responsibilities of a Data Analyst
 
-   - (Further details to come)
-5. **Lesson 5:** Data Interpretation and Communication
+   - Understanding core responsibilities of data analysts
+   - Identifying technical and soft skills required for success
+   - Exploring career progression paths in data analysis
+5. **Lesson 5:** Overview of Industry Tools and Technologies
 
-   - (Further details to come)
+   - Understanding the range of tools used in modern data analysis
+   - Identifying appropriate tools for different analysis tasks
+   - Gaining familiarity with common data analysis platforms
 6. **Lesson 6:** Practical Data Analysis Project
 
-   - (Further details to come)
+   - Applying learned concepts to real-world data challenges
+   - Creating end-to-end analysis projects
+   - Developing a portfolio-ready data analysis presentation
 
 ## Course Structure
 
