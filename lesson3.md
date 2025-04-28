@@ -65,6 +65,24 @@ The data analysis lifecycle is a structured approach to turning raw data into ac
 
 > **Best Practice**: Begin with a clear question or objective. The quality of your analysis can only be as good as the clarity of your original question.
 
+🌟 There are also many great sources where you can find real datasets to practice and work with:
+
+Kaggle – A treasure trove of datasets across all fields (marketing, healthcare, sports, banking, stock market, and more):
+
+👉https://lnkd.in/dD28siEz
+
+Google Dataset Search – A search engine dedicated to finding datasets:
+👉https://lnkd.in/d6MFfbMB
+
+Data.gov – A platform for open U.S. government datasets:
+👉https://www.data.gov/
+
+UCI Machine Learning Repository – Datasets specially designed for machine learning projects:
+👉https://lnkd.in/dhKdKwSS
+
+OpenML – A platform offering datasets and showing how others have worked with them:
+👉https://www.openml.org/
+
 ### Stage 2: Data Cleaning and Preparation 🧹
 
 **🎯 Purpose**: Transform raw data into a clean, consistent, and usable format for analysis.
